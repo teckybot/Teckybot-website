@@ -1,0 +1,206 @@
+import React from 'react'
+import hero from '../data/services/workshop_hero.png'
+import Footer from '../Components/Footer'
+import w1 from '../data/services/w1.png'
+import fb from '../data/Facebook.png'
+
+const Workshop = () => {
+    const text = "TECK WORKSHOPS"
+    const extractVideoId = (url) => {
+        const regex = /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{11})/;
+        const match = url.match(regex);
+        return match ? match[1] : '';
+    };
+    const videoLinks = [
+        "https://www.youtube.com/embed/1XY_tgcRH28",
+        "https://www.youtube.com/embed/1XY_tgcRH28",
+        "https://www.youtube.com/embed/1XY_tgcRH28",
+    ];
+
+
+    return (
+        <div className='flex flex-col items-center justify-center w-full'>
+            <div className="w-[90%] sm:w-[80%] rounded-3xl my-8 sm:my-16 flex flex-col p-6 sm:p-12 md:p-16 lg:p-24 overflow-hidden bg-white relative"
+                style={{ boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                {/* Background Image */}
+                <div
+                    className="absolute inset-0 rounded-3xl"
+                    style={{
+                        background: `url(${hero})`,
+                        backgroundSize: "cover", // Use cover for better background fitting
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                    }}
+                ></div>
+
+                {/* Content */}
+                <div className="relative z-10 flex flex-col items-center">
+                    {/* Responsive Heading */}
+                    <h1 className="text-[24px] sm:text-[32px] md:text-[48px] lg:text-[64px] text-center sm:tracking-widest text-white font-semibold">
+                        {text.split("").map((letter, index) => (
+                            <span
+                                key={index}
+                                style={{
+                                    textShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)",
+                                }}
+                            >
+                                {letter}
+                            </span>
+                        ))}
+                    </h1>
+
+                    {/* Responsive Paragraph */}
+                    <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Habitant.
+                    </p>
+                </div>
+            </div>
+
+            {/* Left  */}
+            <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Lorem Ipsum
+                    </h1>
+                    <p className='my-4'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Right */}
+            <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Lorem Ipsum
+                    </h1>
+                    <p className='my-4'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Left  */}
+            <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Lorem Ipsum
+                    </h1>
+                    <p className='my-4'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Right */}
+            <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Lorem Ipsum
+                    </h1>
+                    <p className='my-4'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            <h1 className="text-center text-[28px] sm:text-[36px] md:text-[40px] lg:text-[50px] xl:text-[50px] font-semibold leading-tight">
+                Workshop Videos
+            </h1>
+
+            <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
+                <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
+                    {[...videoLinks, ...videoLinks].map((videoUrl, index) => (
+                        <div
+                            key={`video-${index}`}
+                            className="w-[500px] h-[300px] mx-6 rounded-2xl overflow-hidden shadow-lg"
+                        >
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                src={`https://www.youtube.com/embed/${extractVideoId(videoUrl)}?autoplay=0&mute=1&rel=0`}
+                                title={`YouTube video ${index}`}
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                className="rounded-2xl"
+                            ></iframe>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-16 mt-10">
+                <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
+                    {[...videoLinks, ...videoLinks].map((videoUrl, index) => (
+                        <div
+                            key={`video-${index}`}
+                            className="w-[500px] h-[300px] mx-6 rounded-2xl overflow-hidden shadow-lg"
+                        >
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                src={`https://www.youtube.com/embed/${extractVideoId(videoUrl)}?autoplay=0&mute=1&rel=0`}
+                                title={`YouTube video ${index}`}
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                className="rounded-2xl"
+                            ></iframe>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <Footer />
+        </div>
+    )
+}
+
+export default Workshop
