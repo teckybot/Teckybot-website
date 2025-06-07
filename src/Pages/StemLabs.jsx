@@ -11,7 +11,7 @@ import Rectangle_20 from '../data/Internship/Gallery/Rectangle_20.png'
 
 const StemLabs = () => {
     const text = "Teck STEM Labs"
-    const highlights=[Rectangle_18,Rectangle_19,Rectangle_20]
+    const highlights = [Rectangle_18, Rectangle_19, Rectangle_20]
     return (
         <div className='flex flex-col items-center justify-center w-full'>
             <div className="w-[90%] sm:w-[80%] rounded-3xl my-8 sm:my-12 flex flex-col p-6 sm:p-12 md:p-16 overflow-hidden bg-white relative"
@@ -45,9 +45,12 @@ const StemLabs = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                        Our STEM Labs are interactive spaces designed to spark curiosity
+                        and innovation in Science, Technology, Engineering. Equipped with modern tools and
+                        real-world kits, these labs offer a hands-on environment where learners can explore,
+                        experiment, and create. From robotics and coding to electronics and automation,
+                        Teckybot’s STEM Labs bring concepts to life—encouraging critical thinking, creativity,
+                        and problem-solving through practical experience.
                     </p>
                     <a
                         href="#"
@@ -66,7 +69,7 @@ const StemLabs = () => {
                 <h1 className='lg:hidden font-bold text-[36px]'>
                     Key Benefits
                 </h1>
-                <p className='px-4 text-justify lg:px-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className='px-4 text-justify lg:px-8 '>STEM Labs at Teckybot offer an immersive learning environment where students can explore, experiment, and innovate using real-world technologies. Designed to bridge the gap between academics and industry, these labs equip learners with future-ready skills, hands-on experience, and a deep understanding of emerging tech fields.</p>
             </div>
 
 
@@ -82,10 +85,11 @@ const StemLabs = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>01</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Hands-On Learning
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Encourages practical understanding by allowing learners to build, experiment,
+                                and explore with real tools and components.
                             </p>
                         </div>
                     </div>
@@ -95,10 +99,11 @@ const StemLabs = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>02</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Enhance Problem-Solving Skills
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Promotes logical reasoning and critical thinking by challenging users to find
+                                solutions through trial and error.
                             </p>
                         </div>
                     </div>
@@ -109,10 +114,11 @@ const StemLabs = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>03</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Team Work & Collaboration
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Encourages communication and collaboration through group-based projects
+                                and interactive sessions.
                             </p>
                         </div>
                     </div>
@@ -123,10 +129,11 @@ const StemLabs = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>04</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Boosts Creativity & Innovation
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Fosters out-of-the-box thinking through engaging activities in robotics, IoT,
+                                coding more.
                             </p>
                         </div>
                     </div>
@@ -137,10 +144,11 @@ const StemLabs = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>05</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Early Exposure to Future Technologies
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Introduces learners to emerging fields like AI, IoT, Automation- bridging the gap
+                                between theory and industry
                             </p>
                         </div>
                     </div>
@@ -156,14 +164,23 @@ const StemLabs = () => {
                         {/* Left: Heading */}
                         <div className="md:w-1/3 mb-6 md:mb-0">
                             <h1 className="text-4xl font-bold text-black mt-4">About ATL</h1>
+                            <p className='font-semibold py-2 px-2'>Atal Tinkering Labs </p>
                         </div>
                         {/* Right: Text */}
                         <div className="md:w-2/3 space-y-6">
                             <p className="text-gray-700 text-base leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                At Teckybot, we actively support and enhance the vision of Atal Tinkering Labs, a
+                                f
+                                lagship initiative by NITI Aayog under the Atal Innovation Mission (AIM). Our ATL
+                                setups are designed to create a nurturing space where young minds can ideate, tinker,
+                                and innovate using state-of-the-art tools and technologies.
                             </p>
                             <p className="text-gray-700 text-base leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                We provide complete ATL
+                                solutions from lab setup and equipment supply to training modules and project
+                                support ensuring that schools are fully equipped to inspire innovation and problem
+                                solving skills among students. Our goal is to cultivate a culture of curiosity, creativity,
+                                and hands-on learning right from the school level.
                             </p>
                         </div>
                     </div>
@@ -191,7 +208,7 @@ const StemLabs = () => {
                             />
                             <a href="#earn" className="z-20 text-center">
                                 <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    L<span className="text-[#FF721F]">EARN</span>                    
+                                    L<span className="text-[#FF721F]">EARN</span>
                                 </h1>
                             </a>
                         </div>
@@ -204,7 +221,7 @@ const StemLabs = () => {
                             />
                             <a href="#dev" className="z-20 text-center">
                                 <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    DEV<span className="text-[#FF721F]">ELOP</span>                                
+                                    DEV<span className="text-[#FF721F]">ELOP</span>
                                 </h1>
                             </a>
                         </div>
@@ -228,20 +245,20 @@ const StemLabs = () => {
             <h1 className='text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight'>STEM LAB</h1>
 
             <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-28 mt-10">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
+                {/* Scrolling container */}
+                <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
+                    {[...highlights, ...highlights].map((image, index) => (
                         <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
+                            key={`primary-${index}`}
+                            src={image}
+                            alt={`college-img-${index}`}
+                            className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
+                            style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
                         />
-                      ))}
-                    </div>
-                    
-                  </div>
+                    ))}
+                </div>
+
+            </div>
             <Footer />
         </div>
     )

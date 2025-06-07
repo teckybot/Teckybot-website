@@ -23,7 +23,12 @@ const AboutUs = () => {
               backgroundRepeat: 'no-repeat'
             }}>
             <h1 className='text-[64px] font-semibold mt-[-50px]'>About <span className='text-[#FF721F]'>Us</span></h1>
-            <p className='px-8 py-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p className='px-8 py-4 text-center'>
+              We’re the team behind Teckybot, a group of tech lovers, mentors, and creators working to
+              make learning more practical and fun. From hands-on training in Industry 4.0 tools to helping
+              with mini and major projects, we’re here to bridge the gap between classrooms and the real
+              tech world.
+            </p>
             <img src={img1} alt='img1' className='sm:w-[400px] sm:h-[300px]' />
           </div>
         </div>
@@ -57,8 +62,8 @@ const AboutUs = () => {
 
           {/* Name overlay */}
           <div className="absolute bottom-4 left-4 bg-black bg-opacity-60 text-white px-4 py-2 rounded-lg text-lg font-semibold shadow-lg">
-             <p className="text-lg font-bold">N.Venkata Reddy</p>
-             <p className="text-sm font-medium opacity-80 text-center">Founder & CEO</p>
+            <p className="text-lg font-bold">N.Venkata Reddy</p>
+            <p className="text-sm font-medium opacity-80 text-center">Founder & CEO</p>
           </div>
         </div>
 

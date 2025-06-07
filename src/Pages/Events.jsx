@@ -12,8 +12,8 @@ import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
 
 
 const Events = () => {
-      const highlights=[Rectangle_18,Rectangle_19,Rectangle_20]
-    const highlights2=[Rectangle_21,Rectangle_22,Rectangle_23]
+  const highlights = [Rectangle_18, Rectangle_19, Rectangle_20]
+  const highlights2 = [Rectangle_21, Rectangle_22, Rectangle_23]
   return (
     <div className='flex flex-col w-full items-center justify-center'>
 
@@ -61,11 +61,12 @@ const Events = () => {
               <span className="text-[#FF721F]">League</span>
             </div>
           </div>
-          <p className="mt-3 sm:mt-4 text-gray-700 text-sm sm:text-base md:text-lg text-center md:text-left">
-            Join our summer camp for an unforgettable adventure filled with fun activities,
-            new friends, and lifelong memories. Don't miss out on the opportunity to make
-            this summer one to remember.
-          </p>
+          {/* <p className="mt-3 sm:mt-4 text-gray-700 text-sm sm:text-base md:text-lg text-center md:text-left">
+            Bharat Tech League is Teckybot’s flagship national-level event designed to spark 
+innovation and hands-on creativity. It offers a platform for budding tech minds to 
+explore, build, and compete using the latest in technology—turning ideas into 
+impactful solutions. 
+          </p> */}
         </div>
 
         {/* Circle with Logo - Smaller on mobile/tablet */}
@@ -83,9 +84,14 @@ const Events = () => {
 
       {/* card 2  */}
       <div className='text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-center mx-auto max-w-6xl my-9'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.</p>
+        <p>
+          Bharat Tech League is Teckybot’s flagship national-level event designed to spark
+          innovation and hands-on creativity. It offers a platform for budding tech minds to
+          explore, build, and compete using the latest in technology—turning ideas into
+          impactful solutions.
+        </p>
       </div>
-    
+
       <div className="my-10  md:my-20 min-h-[280px] md:min-h-[500px] relative bg-gradient-to-b from-white to-blue-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-10 shadow-lg w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col items-center justify-center md:flex-row-reverse md:justify-between overflow-hidden"
         style={{
           background: "linear-gradient(180deg, rgba(207, 227, 255, 1) 2%, rgba(255, 255, 255, 1) 88%)",
@@ -105,11 +111,11 @@ const Events = () => {
           <div className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 text-center md:text-right">
             <h1 className='text-[36px] sm:text-[48px] lg:text-[64px] text-center'>TECK-<span className='text-[#FF721F]'>A</span>-THON</h1>
           </div>
-          <p className="mt-3 sm:mt-4 text-gray-700 text-sm sm:text-base md:text-lg text-center md:text-right">
+          {/* <p className="mt-3 sm:mt-4 text-gray-700 text-sm sm:text-base md:text-lg text-center md:text-right">
             Join our summer camp for an unforgettable adventure filled with fun activities,
             new friends, and lifelong memories. Don't miss out on the opportunity to make
             this summer one to remember.
-          </p>
+          </p> */}
         </div>
 
         {/* Circle with Logo on left */}
@@ -128,41 +134,47 @@ const Events = () => {
       </div>
 
       <div className='text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-center mx-auto max-w-6xl my-9 mb-24'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.</p>
+        <p>
+          Teck-a-thon is Teckybot’s high-energy hackathon where innovation meets execution.
+          Designed to fuel creativity and problem-solving, this event brings together tech
+          enthusiasts to brainstorm, build, and present real-world solutions within a limited time
+          frame. Whether you're a coder, designer, or idea machine, Teck-a-thon is your space
+          to shine, collaborate, and make your mark.
+        </p>
       </div>
 
       <h1 className='text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight'>Events Gallery</h1>
 
-            <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
-                        <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
-                        />
-                      ))}
-                    </div>
-                    
-                  </div>
+      <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
+        {/* Scrolling container */}
+        <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
+          {[...highlights, ...highlights].map((image, index) => (
+            <img
+              key={`primary-${index}`}
+              src={image}
+              alt={`college-img-${index}`}
+              className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
+              style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
+            />
+          ))}
+        </div>
 
-            <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-5">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
-                        <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="h-[300px] w-auto object-cover mx-6 rounded-xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
-                        />
-                      ))}
-                    </div>
-                  </div>
+      </div>
+
+      <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-5">
+        {/* Scrolling container */}
+        <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
+          {[...highlights, ...highlights].map((image, index) => (
+            <img
+              key={`primary-${index}`}
+              src={image}
+              alt={`college-img-${index}`}
+              className="h-[300px] w-auto object-cover mx-6 rounded-xl"
+              style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
+            />
+          ))}
+        </div>
+      </div>
 
 
       <Footer />

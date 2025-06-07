@@ -40,9 +40,9 @@ const Iic = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                         Industry-Institute Collaboration (IIC) refers to a strategic partnership between 
+academic institutions and industries aimed at fostering mutual growth and innovation. 
+
                     </p>
                 </div>
             </div>
@@ -61,11 +61,23 @@ const Iic = () => {
 
             <div className="text-start mx-auto max-w-7xl my-6 sm:my-8 md:my-12 lg:my-16 px-4 sm:px-6 md:px-8">
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                    At Teckybot, our IIC programs are designed to support learners throughout their 
+academic journey. We collaborate with institutions to provide continuous industry 
+exposure, hands-on training, and project-based learning—helping participants build 
+real-world skills across all semesters of their course. 
+Partnering with Teckybot through our Industry-Institute Collaboration (IIC) program 
+offers institutions a wide range of benefits. It enhances curriculum delivery by 
+integrating industry-relevant tools and content, ensuring students gain hands-on 
+experience and practical skills throughout their academic journey. This continuous 
+exposure significantly boosts student employability and confidence. 
                 </p>
                 <br />
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                     Institutions gain 
+stronger industry connections, access to live projects, internships, and research 
+opportunities—fostering a culture of innovation and real-world problem-solving. 
+Ultimately, this collaboration elevates the institution’s academic profile and positions 
+it as a forward-thinking, industry-aligned learning hub.
                 </p>
             </div>
 

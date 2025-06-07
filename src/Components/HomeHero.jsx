@@ -15,21 +15,21 @@ const HomeHero = () => {
                         <span className='text-[#FF721F]'>Innovation</span>
                     </h1>
                     <p className='font-normal p-4 mt-[-5%] sm:mt-0 text-center'>
-                    Teckybot is dedicated to empowering teachers, students, and tech enthusiasts with Industry 4.0 technologies. 
-                    Through our Adaptive Learning Mechanism, we offer hands-on tech training to gain practical skills, real-world experience, and in-depth knowledge, bridging the gap between traditional education and the evolving demands of the future.
+                        Teckybot empowers teachers, students, and tech enthusiasts with hands-on training in Industry 4.0 technologies through its Adaptive Learning Mechanism. We bridge the gap between traditional learning and future industry needs by offering practical skills and real-world experience.
+                        Alongside training, Teckybot also provides a wide range of services including support for academic projects both mini and major catering to students and professionals seeking innovative, end-to-end project solutions.
                     </p>
                 </div>
                 <img src={boy} alt='boy' className='h-full w-[20%] hidden lg:block' />
 
                 <div className='flex h-[200px] sm:h-[300px] w-full mt-[-16%] sm:mt-[-10%] lg:mt-[-40%] lg:hidden'>
-                    <img src={robo} alt='robo' className='h-full w-[50%]'/>
-                    <img src={boy} alt='boy' className='h-full w-[50%]'/>
+                    <img src={robo} alt='robo' className='h-full w-[50%]' />
+                    <img src={boy} alt='boy' className='h-full w-[50%]' />
 
                 </div>
             </div>
 
-            <img src={box} alt='box' className='absolute w-[100px] h-[70px] right-[10px] top-[-20px] lg:right-[50px] lg:top-[20px] sm:h-[100px] sm:w-[150px] '/>
-            <img src={box} alt='box' className='absolute w-[100px] h-[70px] left-[10px] bottom-[-20px] lg:left-[50px] lg:bottom-[20px] sm:h-[100px] sm:w-[150px] '/>
+            <img src={box} alt='box' className='absolute w-[100px] h-[70px] right-[10px] top-[-20px] lg:right-[50px] lg:top-[20px] sm:h-[100px] sm:w-[150px] ' />
+            <img src={box} alt='box' className='absolute w-[100px] h-[70px] left-[10px] bottom-[-20px] lg:left-[50px] lg:bottom-[20px] sm:h-[100px] sm:w-[150px] ' />
 
         </div>
     )

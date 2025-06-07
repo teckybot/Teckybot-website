@@ -64,9 +64,12 @@ const Projects = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                        At Teckybot, we deliver complete and customized solutions for both major and minor projects, focused on Industry 4.0 technologies. Whether you're
+                        working on an academic requirement, a product prototype, or a tech-based concept,
+                        we bring your ideas to life with smart, efficient, and fully functional implementations.
+                        Our offerings cover a wide range of domains including IoT, Artificial Intelligence,
+                        Automation, Embedded Systems, and more—ensuring innovation and quality at every
+                        step.
                     </p>
                 </div>
             </div>
@@ -77,10 +80,15 @@ const Projects = () => {
 
             <div className="text-start mx-auto max-w-7xl my-6 sm:my-8 md:my-12 lg:my-16 px-4 sm:px-6 md:px-8">
                 <h3 className="font-semibold text-lg sm:text-xl md:text-2xl my-2">
-                    Lorem ipsum
+                    Minor Projects
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                    Our minor projects are tailored for short-term objectives that require quick execution
+                    without compromising on innovation. These projects are ideal for showcasing
+                    technical knowledge in a concise format and are best suited for early-stage academic
+                    needs, internships, or initial concept testing. Each solution is thoughtfully crafted using
+                    up-to-date tools and technologies, providing a solid foundation for future
+                    advancements.
                 </p>
             </div>
 
@@ -110,10 +118,15 @@ const Projects = () => {
 
             <div className="text-start mx-auto max-w-7xl my-6 sm:my-8 md:my-12 lg:my-16 px-4 sm:px-6 md:px-8">
                 <h3 className="font-semibold text-lg sm:text-xl md:text-2xl my-2">
-                    Lorem ipsum
+                    Major Projects
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                    Major projects at Teckybot are designed for high-impact outcomes. These are in
+                    depth, technically rich solutions created to meet final-year academic standards,
+                    industrial use cases, or product development goals. From research-based systems to
+                    working prototypes, our team ensures every detail is aligned with real-world
+                    applications. We focus on functionality, scalability, and innovation—delivering
+                    solutions that stand out both technically and practically.
                 </p>
             </div>
 

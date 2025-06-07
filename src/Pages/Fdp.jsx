@@ -38,21 +38,26 @@ const Fdp = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                        At Teckybot, our Faculty Development Programme is designed to empower
+                        educators with the latest advancements in Industry 4.0 technologies. Through focused
+                        sessions, hands-on training, and expert-led workshops, we help faculty members
+                        upgrade their technical skills, stay industry-relevant, and effectively integrate emerging
+                        technologies into their teaching methodologies. Our FDP aims to build confident,
+                        future-ready educators who can inspire innovation in the classroom and beyond.
                     </p>
                 </div>
             </div>
 
-                        <div className='w-[80%] flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-36 my-8'>
+            <div className='w-[80%] flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-36 my-8'>
                 <h1 className='font-bold text-[48px] hidden lg:block'>
                     Key<br />Benefits
                 </h1>
                 <h1 className='lg:hidden font-bold text-[36px]'>
                     Key Benefits
                 </h1>
-                <p className='px-4 text-justify lg:px-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className='px-4 text-justify lg:px-8'>
+                    Our programme empowers educators with the latest Industry 4.0 skills, helping them upgrade their teaching methods. It supports seamless integration of new technologies into the curriculum. Faculty gain hands-on experience and foster continuous learning to stay ahead in a rapidly evolving tech landscape.
+                </p>
             </div>
 
 
@@ -68,10 +73,11 @@ const Fdp = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>01</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Industry-Relevant Skill Enhancement
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Equips faculty with the latest knowledge in the Industry 4.0 technologies like
+                                AI, IoT, Robotics, Automation
                             </p>
                         </div>
                     </div>
@@ -81,10 +87,11 @@ const Fdp = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>02</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Curriculum Integration Support
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Helps educators seamlessly incorporate new-age tech concepts into academic
+                                syllabi and classroom
                             </p>
                         </div>
                     </div>
@@ -95,10 +102,11 @@ const Fdp = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>03</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Improved Teaching Methodologies
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Encourages adoption of interactive, project- based, and student-centered
+                                teaching techniques
                             </p>
                         </div>
                     </div>
@@ -109,10 +117,11 @@ const Fdp = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>04</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Encourages Continuous Learning
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Promotes a mindset of lifelong learning and innovation, keeping educators
+                                aligned with evolving tech trends
                             </p>
                         </div>
                     </div>
@@ -123,10 +132,11 @@ const Fdp = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>05</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                                Lorem ipsum
+                                Hands-On-Practical Exposure
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
+                                Focuses on experiential learning through live tools, kits, and real-world
+                                applications to improve teaching effectiveness
                             </p>
                         </div>
                     </div>
@@ -135,8 +145,7 @@ const Fdp = () => {
                 </div>
             </div>
 
-
-                        <div id="opportunities" className='flex flex-wrap items-center justify-center gap-20 mt-20 scroll-mt-24 mb-20'>
+            {/* <div id="opportunities" className='flex flex-wrap items-center justify-center gap-20 mt-20 scroll-mt-24 mb-20'>
                 <div
                     className='flex flex-col w-[350px] p-[1.5px] rounded-[20px]'
                     style={{ background: 'linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))' }}
@@ -190,8 +199,9 @@ const Fdp = () => {
                     </div>
                 </div>
 
+
+            </div> */}
             
-            </div>
             <Footer />
         </div>
     )

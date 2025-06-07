@@ -11,8 +11,8 @@ import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
 
 
 const Internship = () => {
-    const highlights=[Rectangle_18,Rectangle_19,Rectangle_20]
-    const highlights2=[Rectangle_21,Rectangle_22,Rectangle_23]
+    const highlights = [Rectangle_18, Rectangle_19, Rectangle_20]
+    const highlights2 = [Rectangle_21, Rectangle_22, Rectangle_23]
     const text = "What is Internship ?"
     return (
         <div className='flex flex-col items-center justify-center w-full'>
@@ -47,9 +47,9 @@ const Internship = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                        An internship is a short-term, real-world work experience that allows
+                        individuals to apply their knowledge, gain practical skills, and understand industry
+                        workflows—often serving as a stepping stone to full-time roles or advanced projects.
                     </p>
 
 
@@ -71,16 +71,18 @@ const Internship = () => {
                 </div>
             </div>
 
-            <div id="opportunities" className='flex flex-wrap items-center justify-center gap-20 mt-20 scroll-mt-24 mb-20'>
+            {/* <div id="opportunities" className='flex flex-wrap items-center justify-center gap-20 mt-20 scroll-mt-24 mb-20'>
                 <div
-                    className='flex flex-col w-[350px] p-[1.5px] rounded-[20px]'
+                    className='flex flex-col w-[360px] p-[1.5px] rounded-[20px]'
                     style={{ background: 'linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))' }}
                 >
                     <div className='flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white'
                         style={{ boxShadow: '0px 5px 10px rgba(0,0,0, 0.25)' }}>
                         <div className='h-[190px] w-full bg-gray-300 rounded-[18px]'></div>
                         <h1 className='font-semibold text-[24px]'>Tecky Smart</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu.</p>
+                        <p> Tecky Smart is our exclusive internship hiring platform where we
+                            onboard passionate individuals and assign them real-time projects based on
+                            their skills and interests. </p>
                         <a
                             href="#"
                             className="inline-block px-4 py-2 mt-4 text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
@@ -90,14 +92,17 @@ const Internship = () => {
                     </div>
                 </div>
                 <div
-                    className='flex flex-col w-[350px] p-[1.5px] rounded-[20px]'
+                    className='flex flex-col w-[360px] p-[1.5px] rounded-[20px]'
                     style={{ background: 'linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))' }}
                 >
                     <div className='flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white'
                         style={{ boxShadow: '0px 5px 10px rgba(0,0,0, 0.25)' }}>
                         <div className='h-[190px] w-full bg-gray-300 rounded-[18px]'></div>
                         <h1 className='font-semibold text-[24px]'>Tecky Skill</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu.</p>
+                        <p>Teck Skill is our unique program where individuals are trained in
+                            relevant technologies and immediately assigned real tasks. This approach
+                            ensures active learning, skill application, and direct industry exposure—all in
+                            one platform. </p>
                         <a
                             href="#"
                             className="inline-block px-4 py-2 mt-4 text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
@@ -108,14 +113,18 @@ const Internship = () => {
                 </div>
 
                 <div
-                    className='flex flex-col w-[350px] p-[1.5px] rounded-[20px]'
+                    className='flex flex-col w-[360px] p-[1.5px] rounded-[20px]'
                     style={{ background: 'linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))' }}
                 >
                     <div className='flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white'
                         style={{ boxShadow: '0px 5px 10px rgba(0,0,0, 0.25)' }}>
                         <div className='h-[190px] w-full bg-gray-300 rounded-[18px]'></div>
                         <h1 className='font-semibold text-[24px]'>Tecky Assist</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu.</p>
+                        <p> Tecky Assist is our skill development platform where individuals
+                            are trained in technologies based on their interests and career goals. With
+                            hands-on guidance and practical sessions, we help learners grow confidently
+                            in the Industry 4.0 landscape.
+                        </p>
                         <a
                             href="#"
                             className="inline-block px-4 py-2 mt-4 text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
@@ -125,42 +134,132 @@ const Internship = () => {
                     </div>
                 </div>
 
-            
+
+            </div> */}
+
+            <div
+                id="opportunities"
+                className="flex flex-wrap items-stretch justify-center gap-20 mt-20 scroll-mt-24 mb-20"
+            >
+                <div
+                    className="flex flex-col w-[370px] p-[1.5px] rounded-[20px]"
+                    style={{
+                        background:
+                            "linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))",
+                    }}
+                >
+                    <div
+                        className="flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white flex-grow"
+                        style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}
+                    >
+                        <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
+                        <h1 className="font-semibold text-[24px]">Tecky Smart</h1>
+                        <p>
+                            Tecky Smart is our exclusive internship hiring platform where we
+                            onboard passionate individuals and assign them real-time projects
+                            based on their skills and interests.
+                        </p>
+                        <a
+                            href="#"
+                            className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
+                        >
+                            Apply Now
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    className="flex flex-col w-[370px] p-[1.5px] rounded-[20px]"
+                    style={{
+                        background:
+                            "linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))",
+                    }}
+                >
+                    <div
+                        className="flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white flex-grow"
+                        style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}
+                    >
+                        <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
+                        <h1 className="font-semibold text-[24px]">Tecky Skill</h1>
+                        <p>
+                            Teck Skill is our unique program where individuals are trained in
+                            relevant technologies and immediately assigned real tasks. This
+                            approach ensures active learning, skill application, and direct
+                            industry exposure—all in one platform.
+                        </p>
+                        <a
+                            href="#"
+                            className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
+                        >
+                            Apply Now
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    className="flex flex-col w-[370px] p-[1.5px] rounded-[20px]"
+                    style={{
+                        background:
+                            "linear-gradient(to bottom right, rgba(255, 114, 31, 1), rgba(255, 114, 31, 0))",
+                    }}
+                >
+                    <div
+                        className="flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white flex-grow"
+                        style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}
+                    >
+                        <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
+                        <h1 className="font-semibold text-[24px]">Tecky Assist</h1>
+                        <p>
+                            Tecky Assist is our skill development platform where individuals are
+                            trained in technologies based on their interests and career goals.
+                            With hands-on guidance and practical sessions, we help learners grow
+                            confidently in the Industry 4.0 landscape.
+                        </p>
+                        <a
+                            href="#"
+                            className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
+                        >
+                            Apply Now
+                        </a>
+                    </div>
+                </div>
             </div>
+
+
             <StudentTestimonials />
 
             <h1 className='text-center text-[48px] font-semibold'>Internships</h1>
 
             <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
+                {/* Scrolling container */}
+                <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
+                    {[...highlights, ...highlights].map((image, index) => (
                         <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
+                            key={`primary-${index}`}
+                            src={image}
+                            alt={`college-img-${index}`}
+                            className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
+                            style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
                         />
-                      ))}
-                    </div>
-                    
-                  </div>
+                    ))}
+                </div>
+
+            </div>
 
             <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-5">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
+                {/* Scrolling container */}
+                <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
+                    {[...highlights, ...highlights].map((image, index) => (
                         <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="h-[300px] w-auto object-cover mx-6 rounded-xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
+                            key={`primary-${index}`}
+                            src={image}
+                            alt={`college-img-${index}`}
+                            className="h-[300px] w-auto object-cover mx-6 rounded-xl"
+                            style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
                         />
-                      ))}
-                    </div>
-                  </div>
+                    ))}
+                </div>
+            </div>
 
             <Footer />
         </div>

@@ -56,29 +56,29 @@ const Footer = () => {
             </div>
             <div>
               <ul className="list-none">
-                <li className="font-semibold py-4">Corporate Office-1</li>
-                <li className="py-2">ā-Hub,</li>
-                <li className="py-2">AU Incubation Center,</li>
-                <li className="py-2">Visakhapatnam,</li>
-                {/* <li className="py-2">Ph: 88861 22887</li> */}
+                <li className="font-semibold py-4">Main Office</li>
+                <li className="py-2"> Dr No: 1, 20/1, Juttada Rd,</li>
+                {/* <li className="py-2">Juttada Rd,</li> */}
+                <li className="py-2"> Pulaganipalem,</li>
+               <li className="py-2"> Visakhapatnam,</li>
+               <li className="py-2"> Andhra Pradesh, 531143.</li>  
                 <li className="py-2">
                   Ph: <a href="tel:8886122886" className="hover:text-blue-600 ">88861 22887</a>
                 </li>
               </ul>
             </div>
-            <div>
+            {/* <div>
               <ul className="list-none">
                 <li className="font-semibold py-4">Corporate Office-2</li>
                 <li className="py-2">T-Hub (C.O),</li>
                 <li className="py-2">Hyderabad,</li>
                 <li className="py-2">Telangana,</li>
-                {/* <li className="py-2">Ph: 88861 22886</li> */}
                 <li className="py-2">
                   Ph: <a href="tel:8886122886" className="hover:text-blue-600">88861 22886</a>
                 </li>
 
               </ul>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex justify-start gap-6">

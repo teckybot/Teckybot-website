@@ -51,9 +51,10 @@ const Workshop = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                        Our workshops offer hands-on learning experiences focused on the latest
+                        Industry 4.0 technologies. Designed for enthusiasts at all levels, these interactive
+                        sessions help participants build practical skills, explore new tools, and work on real
+                        world applications—making complex concepts easy and fun to learn.
                     </p>
                 </div>
             </div>
@@ -64,13 +65,12 @@ const Workshop = () => {
                 <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
-                        Lorem Ipsum
+                        Electric Vehicle Technology
                     </h1>
                     <p className='my-4'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                        Explore the basics of electric vehicle design, battery
+                        management, and motor control systems to understand how clean, efficient transport
+                        is shaping the future.
                     </p>
                     <a
                         href="#"
@@ -87,13 +87,11 @@ const Workshop = () => {
                 <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
-                        Lorem Ipsum
+                        Robotics
                     </h1>
                     <p className='my-4'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                        Learn fundamental concepts of robot building and programming, including
+                        sensors, actuators, and automation to create simple working robots.
                     </p>
                     <a
                         href="#"
@@ -110,13 +108,11 @@ const Workshop = () => {
                 <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
-                        Lorem Ipsum
+                        3D Printing
                     </h1>
                     <p className='my-4'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                        Get hands-on experience with 3D modelling and printing, turning digital
+                        designs into physical prototypes using beginner-friendly tools.
                     </p>
                     <a
                         href="#"
@@ -133,13 +129,95 @@ const Workshop = () => {
                 <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
-                        Lorem Ipsum
+                        Drone Technology
                     </h1>
                     <p className='my-4'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant cras morbi hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien.
-                        In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant.
+                        Discover the essentials of drone operation, including flight
+                        mechanics, remote control, and basic aerial photography applications.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Left  */}
+            <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Artificial Intelligence (AI)
+                    </h1>
+                    <p className='my-4'>
+                        Understand AI basics such as machine learning, data
+                        patterns, and simple algorithms to create smart applications and problem solvers.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Right */}
+            <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Embedded Systems
+                    </h1>
+                    <p className='my-4'>
+                        Dive into microcontroller programming and interfacing to build
+                        automated systems for real-world applications like home automation.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Left  */}
+            <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Internet of Things (IoT)
+                    </h1>
+                    <p className='my-4'>
+                        Learn how connected devices communicate and share data
+                        to create smart environments such as automated homes and monitoring systems.
+                    </p>
+                    <a
+                        href="#"
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
+                    >
+                        Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            {/* Right */}
+            <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
+                style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <div className='w-auto flex flex-col sm:px-6'>
+                    <h1 className='font-semibold text-[24px]'>
+                        Renewable Energy
+                    </h1>
+                    <p className='my-4'>
+                        Explore the fundamentals of solar, wind, and other renewable
+                        energy sources, focusing on sustainable power generation and storage basics.
                     </p>
                     <a
                         href="#"

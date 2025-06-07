@@ -46,9 +46,11 @@ const Seminars = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Habitant.
+                         Our seminars bring together experts and innovators to share insights on 
+emerging technologies, industry trends, and best practices. These sessions provide a 
+platform for knowledge exchange, inspiring discussions, and staying updated with the 
+latest developments in the tech world. 
+
                     </p>
                     <a
                         href="#"
@@ -66,7 +68,9 @@ const Seminars = () => {
                 <h1 className='lg:hidden font-bold text-[36px]'>
                     Key Benefits
                 </h1>
-                <p className='px-4 text-justify lg:px-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className='px-4 text-justify lg:px-8'>
+                    Key benefits of Seminars at Teckybot provide attendees with up-to-date insights on cutting-edge industry trends and technologies. Delivered by experienced professionals and thought leaders, our seminars offer valuable expert knowledge and opportunities to connect with peers and mentors. They inspire innovation, boost motivation, and support ongoing professional growth to help you stay competitive in your field.
+                </p>
             </div>
 
 
@@ -82,10 +86,10 @@ const Seminars = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>01</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Lorem ipsum 
+                            Stay Updated  
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. 
+                                Gain insights into the latest industry trends, technologies, and innovations. 
                             </p>
                         </div>
                     </div>
@@ -95,10 +99,11 @@ const Seminars = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>02</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Lorem ipsum 
+                            Expert Knowledge  
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. 
+                                Learn directly from industry leaders, researchers, and experienced 
+professionals.
                             </p>
                         </div>
                     </div>
@@ -108,10 +113,10 @@ const Seminars = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>03</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Lorem ipsum 
+                            Networking Opportunities 
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. 
+                                Connect with like-minded peers, mentors, and potential collaborators. 
                             </p>
                         </div>
                     </div>
@@ -121,10 +126,10 @@ const Seminars = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>04</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Lorem ipsum 
+                            Inspiration & Motivation 
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. 
+                                Spark new ideas and boost your passion for learning and innovation. 
                             </p>
                         </div>
                     </div>
@@ -134,10 +139,10 @@ const Seminars = () => {
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>05</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Lorem ipsum 
+                             Professional Development  
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. 
+                                Enhance your skills and knowledge to stay competitive in your field. 
                             </p>
                         </div>
                     </div>
