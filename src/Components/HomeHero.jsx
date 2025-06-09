@@ -15,7 +15,9 @@ const HomeHero = () => {
                         <span className='text-[#FF721F]'>Innovation</span>
                     </h1>
                     <p className='font-normal p-4 mt-[-5%] sm:mt-0 text-center'>
-                        Teckybot — where teachers, students, and tech enthusiasts dive into hands-on Industry 4.0 training with our Adaptive Learning Mechanism.We blend practical skills with real-world experience to bridge the gap between classroom and career.
+                        Teckybot — where teachers, students, and tech enthusiasts dive into hands-on Industry 4.0 training with
+                         our Adaptive Learning Mechanism. We blend practial skills with real world experience.<br /> <br />
+                        We serves as a catalyst for turning concepts into reality!
                         Got a project? From mini to major, we’ve got you covered with end-to-end support.
                         Let’s turn your ideas into innovation.
                     </p>
