@@ -64,12 +64,10 @@ const Projects = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        At Teckybot, we deliver complete and customized solutions for both major and minor projects, focused on Industry 4.0 technologies. Whether you're
-                        working on an academic requirement, a product prototype, or a tech-based concept,
-                        we bring your ideas to life with smart, efficient, and fully functional implementations.
-                        Our offerings cover a wide range of domains including IoT, Artificial Intelligence,
-                        Automation, Embedded Systems, and more—ensuring innovation and quality at every
-                        step.
+                        At Teckybot, we offer complete, customised solutions for projects in Industry 4.0 technologies.
+                        From academic needs to product prototypes, we turn your ideas into smart realities.
+                        Our expertise spans IoT, AI, Automation, Embedded Systems, and more.
+                        Innovation, quality, and practical impact — that’s our promise.
                     </p>
                 </div>
             </div>
@@ -82,7 +80,7 @@ const Projects = () => {
                 <h3 className="font-semibold text-lg sm:text-xl md:text-2xl my-2">
                     Minor Projects
                 </h3>
-                <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
+                <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-justify">
                     Our minor projects are tailored for short-term objectives that require quick execution
                     without compromising on innovation. These projects are ideal for showcasing
                     technical knowledge in a concise format and are best suited for early-stage academic
@@ -120,7 +118,7 @@ const Projects = () => {
                 <h3 className="font-semibold text-lg sm:text-xl md:text-2xl my-2">
                     Major Projects
                 </h3>
-                <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
+                <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-justify">
                     Major projects at Teckybot are designed for high-impact outcomes. These are in
                     depth, technically rich solutions created to meet final-year academic standards,
                     industrial use cases, or product development goals. From research-based systems to

@@ -20,11 +20,11 @@ const Career = () => {
             }}>
             <h1 className='text-[48px] sm:text-[64px] font-semibold mt-[-50px]'>Let’s Grow <br /><span className='text-[#FF721F]'>Together</span></h1>
             <p className='px-4 py-4'>
-              Join Teckybot and be part of a dynamic team that’s shaping the future of technology and
-              education. We’re always looking for passionate, innovative minds who want to make a real
-              impact through Industry 4.0 solutions, cutting-edge projects, and transformative learning
-              experiences. Explore exciting opportunities to grow your skills, collaborate with experts, and
-              contribute to meaningful tech advancements.
+              Ready to shape the future of tech and education?
+              Join Teckybot — where passion meets innovation in Industry 4.0 projects and transformative learning.
+              Grow your skills, collaborate with experts, and make a real impact.
+              <br />
+              Let’s build tomorrow, together!
             </p>
             <img src={img1} alt='img1' className='w-[300px] sm:w-[400px] lg:w-[500px] lg:h-[450px]' />
           </div>

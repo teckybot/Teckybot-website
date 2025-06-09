@@ -12,7 +12,7 @@ import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
 
 const Seminars = () => {
     const text = "SEMINARS";
-    const highlights=[Rectangle_18,Rectangle_19,Rectangle_20];
+    const highlights = [Rectangle_18, Rectangle_19, Rectangle_20];
     return (
         <div className='flex flex-col items-center justify-center w-full'>
             <div className="w-[90%] sm:w-[80%] rounded-3xl my-8 sm:my-12 flex flex-col p-6 sm:p-12 md:p-16 overflow-hidden bg-white relative"
@@ -46,10 +46,9 @@ const Seminars = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                         Our seminars bring together experts and innovators to share insights on 
-emerging technologies, industry trends, and best practices. These sessions provide a 
-platform for knowledge exchange, inspiring discussions, and staying updated with the 
-latest developments in the tech world. 
+                        Our seminars bring experts and innovators together to share the latest in emerging technologies and industry trends.
+                        They’re the perfect platform for knowledge exchange, inspiring discussions, and staying ahead in the fast-evolving tech world.
+                        Experience the future of technology through insightful connections and learning!
 
                     </p>
                     <a
@@ -69,27 +68,29 @@ latest developments in the tech world.
                     Key Benefits
                 </h1>
                 <p className='px-4 text-justify lg:px-8'>
-                    Key benefits of Seminars at Teckybot provide attendees with up-to-date insights on cutting-edge industry trends and technologies. Delivered by experienced professionals and thought leaders, our seminars offer valuable expert knowledge and opportunities to connect with peers and mentors. They inspire innovation, boost motivation, and support ongoing professional growth to help you stay competitive in your field.
+                    Seminars at Teckybot offer the latest insights on industry trends, delivered by expert professionals.
+                    They provide valuable knowledge, networking with peers and mentors, and inspire innovation and growth.
+                    Stay motivated and competitive with our engaging sessions!
                 </p>
             </div>
 
 
             <div className="h-[1px] w-[80%] bg-[#151515] my-4 opacity-[40%]"></div>
-           
+
             <div className='my-8 flex flex-col lg:flex-row items-center lg:items-start w-[80%] gap-6 lg:gap-0'>
                 <div className='w-[90%] sm:w-[60%] lg:w-[40%] h-auto'>
                     <img src={logo} alt='logo' className='w-[90%] h-auto rounded-[50%]'
-                        style={{boxShadow: '0px 5px 30px rgba(0,0,0, 0.25)'}}/>
+                        style={{ boxShadow: '0px 5px 30px rgba(0,0,0, 0.25)' }} />
                 </div>
                 <div className='lg:w-[60%] flex flex-col items-start justify-center'>
                     <div className='flex items-start gap-4 sm:gap-20'>
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>01</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Stay Updated  
+                                Stay Updated
                             </h1>
                             <p>
-                                Gain insights into the latest industry trends, technologies, and innovations. 
+                                Gain insights into the latest industry trends, technologies, and innovations.
                             </p>
                         </div>
                     </div>
@@ -99,11 +100,11 @@ latest developments in the tech world.
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>02</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Expert Knowledge  
+                                Expert Knowledge
                             </h1>
                             <p>
-                                Learn directly from industry leaders, researchers, and experienced 
-professionals.
+                                Learn directly from industry leaders, researchers, and experienced
+                                professionals.
                             </p>
                         </div>
                     </div>
@@ -113,10 +114,10 @@ professionals.
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>03</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Networking Opportunities 
+                                Networking Opportunities
                             </h1>
                             <p>
-                                Connect with like-minded peers, mentors, and potential collaborators. 
+                                Connect with like-minded peers, mentors, and potential collaborators.
                             </p>
                         </div>
                     </div>
@@ -126,10 +127,10 @@ professionals.
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>04</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                            Inspiration & Motivation 
+                                Inspiration & Motivation
                             </h1>
                             <p>
-                                Spark new ideas and boost your passion for learning and innovation. 
+                                Spark new ideas and boost your passion for learning and innovation.
                             </p>
                         </div>
                     </div>
@@ -139,50 +140,50 @@ professionals.
                         <h1 className='text-[#FF721F] text-[32px] lg:text-[48px] font-semibold'>05</h1>
                         <div className='flex flex-col gap-4'>
                             <h1 className='font-semibold text-[24px]'>
-                             Professional Development  
+                                Professional Development
                             </h1>
                             <p>
-                                Enhance your skills and knowledge to stay competitive in your field. 
+                                Enhance your skills and knowledge to stay competitive in your field.
                             </p>
                         </div>
                     </div>
-                </div>           
+                </div>
             </div>
 
-             <h1 className="text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight mt-24 mb-8">
+            <h1 className="text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight mt-24 mb-8">
                 Seminars
             </h1>
 
             <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
+                {/* Scrolling container */}
+                <div className="flex animate-scroll-awards hover:[animation-play-state:paused]">
+                    {[...highlights, ...highlights].map((image, index) => (
                         <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
+                            key={`primary-${index}`}
+                            src={image}
+                            alt={`college-img-${index}`}
+                            className="w-auto h-[300px] object-cover mx-6 rounded-2xl"
+                            style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
                         />
-                      ))}
-                    </div>
-                    
-                  </div>
+                    ))}
+                </div>
+
+            </div>
 
             <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-20">
-                    {/* Scrolling container */}
-                    <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
-                      {[...highlights, ...highlights].map((image, index) => (
+                {/* Scrolling container */}
+                <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
+                    {[...highlights, ...highlights].map((image, index) => (
                         <img
-                          key={`primary-${index}`}
-                          src={image}
-                          alt={`college-img-${index}`}
-                          className="h-[300px] w-auto object-cover mx-6 rounded-xl"
-                          style={{boxShadow: "0px 0px 20px rgba(0,0,0,0.2)"}}
+                            key={`primary-${index}`}
+                            src={image}
+                            alt={`college-img-${index}`}
+                            className="h-[300px] w-auto object-cover mx-6 rounded-xl"
+                            style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
                         />
-                      ))}
-                    </div>
-                  </div>
+                    ))}
+                </div>
+            </div>
 
             <Footer />
         </div>

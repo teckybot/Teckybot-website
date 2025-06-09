@@ -24,10 +24,7 @@ const AboutUs = () => {
             }}>
             <h1 className='text-[64px] font-semibold mt-[-50px]'>About <span className='text-[#FF721F]'>Us</span></h1>
             <p className='px-8 py-4 text-center'>
-              We’re the team behind Teckybot, a group of tech lovers, mentors, and creators working to
-              make learning more practical and fun. From hands-on training in Industry 4.0 tools to helping
-              with mini and major projects, we’re here to bridge the gap between classrooms and the real
-              tech world.
+              We’re the team behind Teckybot  a passionate group of tech enthusiasts, mentors, and innovators dedicated to making learning engaging and practical. Through hands-on training in cutting-edge Industry 4.0 technologies, we empower learners to move beyond textbooks and step confidently into the real-world tech landscape.
             </p>
             <img src={img1} alt='img1' className='sm:w-[400px] sm:h-[300px]' />
           </div>
@@ -40,7 +37,7 @@ const AboutUs = () => {
       <div className='w-full flex flex-col-reverse items-center lg:flex-row lg:h-[600px] my-12'>
         <div className='w-[95%] sm:w-[80%] lg:w-[62%] lg:h-full rounded-r-[30px] lg:rounded-r-[0px] rounded-l-[30px] p-6 sm:p-20 flex flex-col bg-black text-white sm:gap-4'>
           <h1 className='font-semibold text-[32px] sm:text-[48px]'>Founder Message</h1>
-          <p className='py-6'>
+          <p className='py-6 text-justify'>
             Starting on an entrepreneurial journey driven by engineering passion, we initially offered comprehensive training for engineering students.
             Expanding our team to seven technical experts, we established Atal Tinkering Labs (ATL) and organized workshops to bridge theory and practice.
             Evolving into an innovative product development firm, we obtained ISO 9001:2015 certification in robotics, aligning with the "MAKE IN BHARAT" initiative.

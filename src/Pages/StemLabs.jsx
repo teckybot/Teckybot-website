@@ -45,12 +45,11 @@ const StemLabs = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Our STEM Labs are interactive spaces designed to spark curiosity
-                        and innovation in Science, Technology, Engineering. Equipped with modern tools and
-                        real-world kits, these labs offer a hands-on environment where learners can explore,
-                        experiment, and create. From robotics and coding to electronics and automation,
-                        Teckybot’s STEM Labs bring concepts to life—encouraging critical thinking, creativity,
-                        and problem-solving through practical experience.
+                        Step into Teckybot’s STEM Labs — where curiosity meets creation!
+                        With hands-on kits and modern tools, students explore robotics, coding, electronics, and more.
+                        It’s all about learning by doing, sparking innovation every step of the way.
+                        <br />
+                        Ready to build, experiment, and bring ideas to life?
                     </p>
                     <a
                         href="#"

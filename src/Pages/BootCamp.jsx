@@ -92,8 +92,8 @@ const BootCamp = () => {
             <div className="w-full flex flex-col items-center relative px-4 py-7 md:mb-20">
                 {/* Heading outside the card */}
                 <h1 className="text-[28px] sm:text-[32px] md:text-[48px] lg:text-[64px] font-semibold text-center leading-tight z-30"
-                    style={{ marginBottom: '-20px', marginTop: '16px' }}>
-                    Unplug, Discover,
+                    style={{ marginBottom: '-40px', marginTop: '16px' }}>
+                    2026
                 </h1>
 
                 {/* Card */}
@@ -124,7 +124,7 @@ const BootCamp = () => {
                     <img src={dot} alt="" className="absolute w-1 sm:w-2 h-1 sm:h-2 z-10 bottom-12 left-8 sm:left-20 md:bottom-8 md:left-32" />
                     <img src={dot} alt="" className="absolute hidden md:block w-1 sm:w-2 h-1 sm:h-2 z-10 bottom-8 right-16 sm:right-24 md:bottom-12 md:right-40" />
                     <img src={drone3} alt="" className="absolute hidden sm:block w-16 sm:w-24 md:w-40 h-16 sm:h-24 md:h-40 z-10 top-24 sm:top-32 right-16 sm:right-28 md:top-44 md:right-34" />
-                    <img src={drone2} alt="" className="absolute w-14 sm:w-12 md:w-32 h-14 sm:h-12 md:h-32 z-10 bottom-12 md:bottom-24 left-1/3 sm:left-2/4 md:left-[45%]" />
+                    <img src={drone2} alt="" className="absolute w-14 sm:w-12 md:w-32 h-14 sm:h-12 md:h-32 z-10 bottom-12 md:bottom-5 left-1/3 sm:left-2/4 md:left-[45%]" />
                     <img src={dot} alt="" className="absolute w-1 sm:w-2 h-1 sm:h-2 z-10 top-12 right-12 sm:right-20 md:top-24 md:right-56" />
                     <img src={rb2} alt="" className="absolute hidden md:block w-8 sm:w-12 md:w-28 h-8 sm:h-12 md:h-28 z-10 bottom-6 right-1/4 md:bottom-3 md:right-60" />
                     <img src={rb1} alt="" className="absolute hidden md:block w-6 sm:w-8 md:w-12 h-6 sm:h-8 md:h-12 z-10 bottom-2 left-16 md:bottom-6 md:left-60" />
@@ -133,9 +133,9 @@ const BootCamp = () => {
                     {/* Central Content */}
                     <div className="relative z-20 flex flex-col items-center justify-center h-full py-8 sm:py-12">
                         <h1 className="text-[24px] sm:text-[32px] md:text-[48px] font-semibold text-[#FF721F] leading-tight text-center mb-2">
-                            Thrive
+                            "See You Then!"
                         </h1>
-                        <p className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto text-center text-sm sm:text-base md:text-lg text-gray-700 font-medium px-4 sm:px-8">
+                        <p className="max-w-xs sm:max-w-sm md:max-w-xl mx-auto text-center text-sm sm:text-base md:text-lg text-gray-700 font-medium px-4 sm:px-8 md:py-16">
                             Join our summer camp for an unforgettable adventure filled with fun activities, new friends, and lifelong memories. Don’t miss out on the opportunity to make this summer one to remember.
                         </p>
                     </div>

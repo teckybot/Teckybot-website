@@ -38,12 +38,12 @@ const Fdp = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        At Teckybot, our Faculty Development Programme is designed to empower
-                        educators with the latest advancements in Industry 4.0 technologies. Through focused
-                        sessions, hands-on training, and expert-led workshops, we help faculty members
-                        upgrade their technical skills, stay industry-relevant, and effectively integrate emerging
-                        technologies into their teaching methodologies. Our FDP aims to build confident,
-                        future-ready educators who can inspire innovation in the classroom and beyond.
+                        Teckybot’s Faculty Development Programme equips educators with the latest in Industry 4.0.
+                        Through hands-on training and expert-led sessions, we help you stay ahead and teach with impact.
+                        Boost your skills, upgrade your methods, and bring innovation into your classroom.
+                        <br />
+                        Ready to become a future-ready educator?
+                         Let’s grow together!
                     </p>
                 </div>
             </div>
@@ -201,7 +201,7 @@ const Fdp = () => {
 
 
             </div> */}
-            
+
             <Footer />
         </div>
     )

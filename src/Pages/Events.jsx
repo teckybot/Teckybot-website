@@ -83,12 +83,17 @@ impactful solutions.
       </div>
 
       {/* card 2  */}
-      <div className='text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-center mx-auto max-w-6xl my-9'>
-        <p>
-          Bharat Tech League is Teckybot’s flagship national-level event designed to spark
-          innovation and hands-on creativity. It offers a platform for budding tech minds to
-          explore, build, and compete using the latest in technology—turning ideas into
-          impactful solutions.
+      <div className="text-start mx-auto max-w-7xl my-6 sm:my-8 md:my-12 lg:my-16 px-4 sm:px-6 md:px-8">
+        <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
+          Bharat Tech League is Teckybot’s flagship national-level event, crafted to ignite innovation and inspire hands-on creativity among young tech enthusiasts across the country. This dynamic platform invites students and aspiring innovators to showcase their skills, collaborate with peers, and tackle real-world challenges using cutting-edge technologies.
+        </p>
+        <br />
+        <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
+          Participants engage in a series of exciting tech challenges and  competitions that encourage critical thinking, problem-solving, and teamwork. From ideation to execution, Bharat Tech League empowers individuals to transform bold ideas into impactful, real-world solutions — all while gaining exposure to Industry 4.0 tools and practices.
+        </p>
+        <br />
+        <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
+          More than just a competition, it’s a celebration of innovation, learning, and the spirit of technology-driven change.
         </p>
       </div>
 
@@ -134,7 +139,7 @@ impactful solutions.
       </div>
 
       <div className='text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-center mx-auto max-w-6xl my-9 mb-24'>
-        <p>
+        <p className='text-justify'>
           Teck-a-thon is Teckybot’s high-energy hackathon where innovation meets execution.
           Designed to fuel creativity and problem-solving, this event brings together tech
           enthusiasts to brainstorm, build, and present real-world solutions within a limited time

@@ -2,23 +2,24 @@ import React from 'react';
 import linked from '../data/aboutus/linked.png'
 import img1 from '../data/aboutus/team/1.jpg'
 import img2 from '../data/aboutus/team/2.jpg'
-import img3 from '../data/aboutus/team/3.jpg'
+import img3 from '../data/aboutus/team/3.3.jpg'
 import img4 from '../data/aboutus/team/4.png'
 import img5 from '../data/aboutus/team/5.JPG'
 import img6 from '../data/aboutus/team/6.JPG'
 import img7 from '../data/aboutus/team/7.JPG'
 import img8 from '../data/aboutus/team/8.JPG'
-import img9 from '../data/aboutus/team/9.jpg'
-import img10 from '../data/aboutus/team/10.jpeg'
-import img11 from '../data/aboutus/team/11.jpeg'
+import img9 from '../data/aboutus/team/9.1.jpg'
+import img10 from '../data/aboutus/team/10.1.jpg'
+import img11 from '../data/aboutus/team/11.2.jpg'
 import img12 from '../data/aboutus/team/12.jpg'
 import img13 from '../data/aboutus/team/13.JPG'
 import img14 from '../data/aboutus/team/14.png'
 import img15 from '../data/aboutus/team/15.png'
 import img16 from '../data/aboutus/team/16.png'
-import img17 from '../data/aboutus/team/17.jpg'
+import img17_1 from '../data/aboutus/team/17.2.jpg'
 import img18 from '../data/aboutus/team/18.png'
-import img19 from '../data/aboutus/team/19.jpeg'
+import img19 from '../data/aboutus/team/19.jpg'
+import img20 from '../data/aboutus/team/20.2.jpg'
 
 
 
@@ -37,7 +38,7 @@ const teamMembers = [
     {
         name: 'K. SAMPURNA',
         position: 'HR Manager',
-        imageUrl: img17,
+        imageUrl: img17_1,
         linkedInUrl: 'https://www.linkedin.com/in/sampurna-kesireddy-843406160/',
      },
     {
@@ -106,6 +107,13 @@ const teamMembers = [
         imageUrl: img18,
         linkedInUrl: 'https://www.linkedin.com/in/venkatcharan21/',
     },
+    {
+        name: 'B. K. S. S. S MALLIK',
+        position: 'Full Stack Developer',
+        imageUrl: img20,
+        linkedInUrl: 'https://www.linkedin.com/in/bksssmallik/',
+    },
+    
     {
         name: 'N. DINESH',
         position: 'Supply Chain Manager',

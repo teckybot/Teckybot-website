@@ -15,8 +15,9 @@ const HomeHero = () => {
                         <span className='text-[#FF721F]'>Innovation</span>
                     </h1>
                     <p className='font-normal p-4 mt-[-5%] sm:mt-0 text-center'>
-                        Teckybot empowers teachers, students, and tech enthusiasts with hands-on training in Industry 4.0 technologies through its Adaptive Learning Mechanism. We bridge the gap between traditional learning and future industry needs by offering practical skills and real-world experience.
-                        Alongside training, Teckybot also provides a wide range of services including support for academic projects both mini and major catering to students and professionals seeking innovative, end-to-end project solutions.
+                        Teckybot — where teachers, students, and tech enthusiasts dive into hands-on Industry 4.0 training with our Adaptive Learning Mechanism.We blend practical skills with real-world experience to bridge the gap between classroom and career.
+                        Got a project? From mini to major, we’ve got you covered with end-to-end support.
+                        Let’s turn your ideas into innovation.
                     </p>
                 </div>
                 <img src={boy} alt='boy' className='h-full w-[20%] hidden lg:block' />

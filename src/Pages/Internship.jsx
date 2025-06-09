@@ -47,9 +47,8 @@ const Internship = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        An internship is a short-term, real-world work experience that allows
-                        individuals to apply their knowledge, gain practical skills, and understand industry
-                        workflows—often serving as a stepping stone to full-time roles or advanced projects.
+                        An internship is a short-term, real-world work experience that allows individuals to apply their knowledge, gain practical skills, and understand industry workflows—often serving as a stepping stone to full-time roles or advanced projects.
+                        Ready to level up your career? Join us and kick-start your journey with hands-on industry exposure!
                     </p>
 
 
@@ -182,10 +181,7 @@ const Internship = () => {
                         <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
                         <h1 className="font-semibold text-[24px]">Tecky Skill</h1>
                         <p>
-                            Teck Skill is our unique program where individuals are trained in
-                            relevant technologies and immediately assigned real tasks. This
-                            approach ensures active learning, skill application, and direct
-                            industry exposure—all in one platform.
+                            Teck Skill is our unique program that trains individuals in relevant technologies and immediately involves them in real tasks—ensuring active learning and direct industry exposure.
                         </p>
                         <a
                             href="#"
@@ -210,10 +206,7 @@ const Internship = () => {
                         <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
                         <h1 className="font-semibold text-[24px]">Tecky Assist</h1>
                         <p>
-                            Tecky Assist is our skill development platform where individuals are
-                            trained in technologies based on their interests and career goals.
-                            With hands-on guidance and practical sessions, we help learners grow
-                            confidently in the Industry 4.0 landscape.
+                            Tecky Assist is our skill development platform, offering hands-on training tailored to your interests and career goals—helping you thrive in the Industry 4.0 world.
                         </p>
                         <a
                             href="#"

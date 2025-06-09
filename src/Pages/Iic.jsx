@@ -40,14 +40,14 @@ const Iic = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                         Industry-Institute Collaboration (IIC) refers to a strategic partnership between 
-academic institutions and industries aimed at fostering mutual growth and innovation. 
-
+                        Industry-Institute Collaboration (IIC) is a powerful partnership between academia and industry, driving mutual growth and innovation.
+                        It connects students and educators with real-world challenges, turning theory into impactful solutions.
+                        Want to bridge the gap between classroom learning and cutting-edge industry needs? IIC makes it happen!
                     </p>
                 </div>
             </div>
 
-            <ImageCarousel/>
+            <ImageCarousel />
 
             <div className="relative w-[80vw] h-[35vh] sm:h-[60vh] lg:h-[85vh] xl:rounded-[500px] rounded-[10px] overflow-hidden my-8 mx-auto transition-all duration-300 xl:hover:rounded-[10px]">
                 <iframe
@@ -61,23 +61,23 @@ academic institutions and industries aimed at fostering mutual growth and innova
 
             <div className="text-start mx-auto max-w-7xl my-6 sm:my-8 md:my-12 lg:my-16 px-4 sm:px-6 md:px-8">
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                    At Teckybot, our IIC programs are designed to support learners throughout their 
-academic journey. We collaborate with institutions to provide continuous industry 
-exposure, hands-on training, and project-based learning—helping participants build 
-real-world skills across all semesters of their course. 
-Partnering with Teckybot through our Industry-Institute Collaboration (IIC) program 
-offers institutions a wide range of benefits. It enhances curriculum delivery by 
-integrating industry-relevant tools and content, ensuring students gain hands-on 
-experience and practical skills throughout their academic journey. This continuous 
-exposure significantly boosts student employability and confidence. 
+                    At Teckybot, our IIC programs are designed to support learners throughout their
+                    academic journey. We collaborate with institutions to provide continuous industry
+                    exposure, hands-on training, and project-based learning—helping participants build
+                    real-world skills across all semesters of their course.
+                    Partnering with Teckybot through our Industry-Institute Collaboration (IIC) program
+                    offers institutions a wide range of benefits. It enhances curriculum delivery by
+                    integrating industry-relevant tools and content, ensuring students gain hands-on
+                    experience and practical skills throughout their academic journey. This continuous
+                    exposure significantly boosts student employability and confidence.
                 </p>
                 <br />
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                     Institutions gain 
-stronger industry connections, access to live projects, internships, and research 
-opportunities—fostering a culture of innovation and real-world problem-solving. 
-Ultimately, this collaboration elevates the institution’s academic profile and positions 
-it as a forward-thinking, industry-aligned learning hub.
+                    Institutions gain
+                    stronger industry connections, access to live projects, internships, and research
+                    opportunities—fostering a culture of innovation and real-world problem-solving.
+                    Ultimately, this collaboration elevates the institution’s academic profile and positions
+                    it as a forward-thinking, industry-aligned learning hub.
                 </p>
             </div>
 
@@ -304,7 +304,7 @@ it as a forward-thinking, industry-aligned learning hub.
                         </div>
                     </div>
 
-                    
+
                 </div>
             </section>
             <Footer />

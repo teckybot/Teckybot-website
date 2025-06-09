@@ -51,10 +51,9 @@ const Workshop = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Our workshops offer hands-on learning experiences focused on the latest
-                        Industry 4.0 technologies. Designed for enthusiasts at all levels, these interactive
-                        sessions help participants build practical skills, explore new tools, and work on real
-                        world applications—making complex concepts easy and fun to learn.
+                        Dive into our hands-on workshops on the latest Industry 4.0 tech!
+                        Whether you’re a beginner or pro, you’ll build real skills, explore cool tools, and tackle real-world projects.
+                        Ready to make learning fun and practical? Join us!
                     </p>
                 </div>
             </div>
@@ -67,7 +66,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Electric Vehicle Technology
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Explore the basics of electric vehicle design, battery
                         management, and motor control systems to understand how clean, efficient transport
                         is shaping the future.
@@ -89,7 +88,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Robotics
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Learn fundamental concepts of robot building and programming, including
                         sensors, actuators, and automation to create simple working robots.
                     </p>
@@ -110,7 +109,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         3D Printing
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Get hands-on experience with 3D modelling and printing, turning digital
                         designs into physical prototypes using beginner-friendly tools.
                     </p>
@@ -131,7 +130,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Drone Technology
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Discover the essentials of drone operation, including flight
                         mechanics, remote control, and basic aerial photography applications.
                     </p>
@@ -152,7 +151,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Artificial Intelligence (AI)
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Understand AI basics such as machine learning, data
                         patterns, and simple algorithms to create smart applications and problem solvers.
                     </p>
@@ -173,7 +172,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Embedded Systems
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Dive into microcontroller programming and interfacing to build
                         automated systems for real-world applications like home automation.
                     </p>
@@ -194,7 +193,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Internet of Things (IoT)
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Learn how connected devices communicate and share data
                         to create smart environments such as automated homes and monitoring systems.
                     </p>
@@ -215,7 +214,7 @@ const Workshop = () => {
                     <h1 className='font-semibold text-[24px]'>
                         Renewable Energy
                     </h1>
-                    <p className='my-4'>
+                    <p className='my-4 text-justify'>
                         Explore the fundamentals of solar, wind, and other renewable
                         energy sources, focusing on sustainable power generation and storage basics.
                     </p>
