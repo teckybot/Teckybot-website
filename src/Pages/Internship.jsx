@@ -8,7 +8,7 @@ import Rectangle_20 from '../data/Internship/Gallery/Rectangle_20.png'
 import Rectangle_21 from '../data/Internship/Gallery/Rectangle_21.png'
 import Rectangle_22 from '../data/Internship/Gallery/Rectangle_22.png'
 import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
-
+import internshipBrochure from '../data/Internship/Teckybot Internship Brochure.pdf'
 
 const Internship = () => {
     const highlights = [Rectangle_18, Rectangle_19, Rectangle_20]
@@ -54,7 +54,8 @@ const Internship = () => {
 
                     <div className="flex flex-col sm:flex-row gap-4 my-4">
                         <a
-                            href="#"
+                            href={internshipBrochure} download="Teckybot Internship Brochure.pdf"
+                            rel="noopener noreferrer"
                             className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px]"
                         >
                             Download Brochure
@@ -159,7 +160,7 @@ const Internship = () => {
                             based on their skills and interests.
                         </p>
                         <a
-                            href="#"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now
@@ -184,7 +185,7 @@ const Internship = () => {
                             Teck Skill is our unique program that trains individuals in relevant technologies and immediately involves them in real tasks—ensuring active learning and direct industry exposure.
                         </p>
                         <a
-                            href="#"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now
@@ -209,7 +210,7 @@ const Internship = () => {
                             Tecky Assist is our skill development platform, offering hands-on training tailored to your interests and career goals—helping you thrive in the Industry 4.0 world.
                         </p>
                         <a
-                            href="#"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now

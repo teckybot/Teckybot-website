@@ -3,6 +3,14 @@ import hero from '../data/services/workshop_hero.png'
 import Footer from '../Components/Footer'
 import w1 from '../data/services/w1.png'
 import fb from '../data/Facebook.png'
+import VE from '../data/workshops/EV - WS.pdf'
+import RB from '../data/workshops/Robotics - WS.pdf'
+import PR from '../data/workshops/Printing.pdf'
+import DR from '../data/workshops/DRONE - WS.pdf'
+import AI from '../data/workshops/AI - WS.pdf'
+import ES from '../data/workshops/ES - WS.pdf'
+import IOT from '../data/workshops/IOT - WS.pdf'
+import PCB from '../data/workshops/PCB - WS.pdf'
 
 const Workshop = () => {
     const text = "TECK WORKSHOPS"
@@ -72,7 +80,7 @@ const Workshop = () => {
                         is shaping the future.
                     </p>
                     <a
-                        href="#"
+                        href={VE} download="Vehicle Technology.pdf"
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
                     >
                         Download Brochure
@@ -93,7 +101,7 @@ const Workshop = () => {
                         sensors, actuators, and automation to create simple working robots.
                     </p>
                     <a
-                        href="#"
+                        href={RB} download="Robotics.pdf"
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
                     >
                         Download Brochure
@@ -114,7 +122,7 @@ const Workshop = () => {
                         designs into physical prototypes using beginner-friendly tools.
                     </p>
                     <a
-                        href="#"
+                        href={PR} download='3D Printing.pdf'
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
                     >
                         Download Brochure
@@ -135,7 +143,7 @@ const Workshop = () => {
                         mechanics, remote control, and basic aerial photography applications.
                     </p>
                     <a
-                        href="#"
+                        href={DR} download='Drone Technology.pdf'
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
                     >
                         Download Brochure
@@ -156,7 +164,7 @@ const Workshop = () => {
                         patterns, and simple algorithms to create smart applications and problem solvers.
                     </p>
                     <a
-                        href="#"
+                        href={AI} download='Artificial Intelligence'
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
                     >
                         Download Brochure
@@ -177,7 +185,7 @@ const Workshop = () => {
                         automated systems for real-world applications like home automation.
                     </p>
                     <a
-                        href="#"
+                        href={ES} download='Embedded Systems.pdf'
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
                     >
                         Download Brochure
@@ -198,7 +206,7 @@ const Workshop = () => {
                         to create smart environments such as automated homes and monitoring systems.
                     </p>
                     <a
-                        href="#"
+                        href={IOT} download='IOT.pdf'
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4 self-end"
                     >
                         Download Brochure
@@ -212,14 +220,13 @@ const Workshop = () => {
                 <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
-                        Renewable Energy
+                        Printed Circuit Board (PCB)
                     </h1>
                     <p className='my-4 text-justify'>
-                        Explore the fundamentals of solar, wind, and other renewable
-                        energy sources, focusing on sustainable power generation and storage basics.
+                        Learn the fundamentals of PCB design and fabrication through a hands-on workshop. Understand circuit design, component placement, and board etching from start to finish.
                     </p>
                     <a
-                        href="#"
+                        href={PCB} download='PCB.pdf'
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
                     >
                         Download Brochure
