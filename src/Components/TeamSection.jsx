@@ -2,7 +2,7 @@ import React from 'react';
 import linked from '../data/aboutus/linked.png'
 import img1 from '../data/aboutus/team/1.jpg'
 import img2 from '../data/aboutus/team/2.jpg'
-import img3 from '../data/aboutus/team/3.3.jpg'
+import img3 from '../data/aboutus/team/3.4.jpg'
 import img4 from '../data/aboutus/team/4.png'
 import img5 from '../data/aboutus/team/5.JPG'
 import img6 from '../data/aboutus/team/6.JPG'
