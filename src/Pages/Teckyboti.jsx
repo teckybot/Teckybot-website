@@ -146,3 +146,73 @@ const Teckyboti = () => {
 }
 
 export default Teckyboti
+
+
+// import React from 'react'
+// import Footer from '../Components/Footer'
+// import img1 from '../data/teckyboti/1.png'
+// import img2 from '../data/teckyboti/2.png'
+// import img3 from '../data/teckyboti/3.png'
+// import img4 from '../data/teckyboti/4.png'
+
+// const suites = [
+//   {
+//     title: "TECK LEARN",
+//     desc: "Interactive modules and a fun learning journey for Industry 4.0 topics.",
+//     img: img1,
+//     badge: "🎓"
+//   },
+//   {
+//     title: "TECK BUILD",
+//     desc: "Hands-on kits for robotics, 3D printing, and creative tech projects.",
+//     img: img2,
+//     badge: "🛠️"
+//   },
+//   {
+//     title: "TECK INNOVATE",
+//     desc: "Collaborative challenges in AI, IoT, and renewable energy.",
+//     img: img3,
+//     badge: "💡"
+//   },
+//   {
+//     title: "TECK CONNECT",
+//     desc: "Meet mentors, join events, and unlock real-world opportunities.",
+//     img: img4,
+//     badge: "🤝"
+//   }
+// ];
+
+// const Teckyboti = () => (
+//   <div className="relative min-h-screen bg-gradient-to-br from-pink-100 via-yellow-100 to-blue-100 py-12 flex flex-col items-center overflow-hidden">
+//     {/* Decorative background shapes */}
+//     <div className="absolute top-0 left-0 w-96 h-96 bg-pink-200 rounded-full opacity-30 -z-10 blur-2xl" style={{top: '-4rem', left: '-4rem'}} />
+//     <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-200 rounded-full opacity-30 -z-10 blur-2xl" style={{bottom: '-4rem', right: '-4rem'}} />
+
+//     <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-indigo-700 drop-shadow-lg">
+//       Welcome to <span className="text-orange-500">Teckyboti</span>!
+//     </h1>
+//     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-[95%] max-w-7xl">
+//       {suites.map((suite) => (
+//         <div
+//           key={suite.title}
+//           className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl flex flex-col items-center p-8 relative hover:scale-105 hover:shadow-3xl transition-transform duration-300"
+//         >
+//           <span className="absolute -top-7 left-1/2 -translate-x-1/2 text-5xl">{suite.badge}</span>
+//           <img src={suite.img} alt={suite.title} className="w-32 h-32 object-contain rounded-full border-4 border-white mb-4 shadow-md bg-white" />
+//           <h2 className="text-2xl font-bold mb-2 text-indigo-800">{suite.title}</h2>
+//           <p className="text-lg text-gray-700 mb-6 text-center">{suite.desc}</p>
+//           <button
+//             className="px-6 py-2 rounded-full bg-orange-400 text-white font-semibold shadow-md hover:bg-orange-500 transition"
+//             disabled={suite.title !== "TECK LEARN"}
+//             onClick={() => suite.title === "TECK LEARN" && window.open("https://lms.teckybot.com/", "_blank")}
+//           >
+//             {suite.title === "TECK LEARN" ? "Explore Now 🚀" : "Coming Soon"}
+//           </button>
+//         </div>
+//       ))}
+//     </div>
+//     <Footer />
+//   </div>
+// );
+
+// export default Teckyboti;
