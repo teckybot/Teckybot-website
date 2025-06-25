@@ -81,10 +81,6 @@ const Fdp = () => {
                             desc: "Gain expertise in AI, IoT, Robotics, and Automation to stay ahead in the education landscape.",
                         },
                         {
-                            title: "Curriculum Integration Support",
-                            desc: "Seamlessly incorporate modern technologies and concepts into your classroom and syllabi.",
-                        },
-                        {
                             title: "Innovative Teaching Methodologies",
                             desc: "Adopt interactive, project-based, and student-focused approaches for impactful learning.",
                         },
@@ -109,10 +105,6 @@ const Fdp = () => {
                     ))}
                 </div>
 
-                {/* CTA */}
-                <button className="mt-14 px-10 py-4 bg-[#FF721F] text-white rounded-full font-semibold text-lg shadow-lg hover:bg-[#e05f00] transition-all duration-200">
-                    Discover More
-                </button>
             </div>
 
             <Footer />

@@ -173,21 +173,6 @@ const Seminars = () => {
 
             </div>
 
-            <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-20">
-                {/* Scrolling container */}
-                <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
-                    {[...highlights, ...highlights].map((image, index) => (
-                        <img
-                            key={`primary-${index}`}
-                            src={image}
-                            alt={`college-img-${index}`}
-                            className="h-[300px] w-auto object-cover mx-6 rounded-xl"
-                            style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
-                        />
-                    ))}
-                </div>
-            </div>
-
             <Footer />
         </div>
     )
