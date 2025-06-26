@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'scroll-college': 'scrollCollege 25s linear infinite',
-        'scroll-school': 'scrollSchool 35s linear infinite',
+        'scroll-college': 'scrollCollege 60s linear infinite',
+        'scroll-school': 'scrollSchool 80s linear infinite',
         'scroll-testimonial': 'scrollTestimonial 25s ease-in-out infinite', // New animation for testimonials
         'scroll-awards': 'scrollAwards 25s linear infinite',
         'scroll-Intern': 'scrollInternsRight 30s linear infinite'

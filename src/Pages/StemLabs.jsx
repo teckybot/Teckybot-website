@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import ImageCarousel1 from '../Components/ImageCarousel2'
-import logo from '../data/home/industrylogo.jpg'
+import logo from '../data/home/industry4.0_teckybot.jpg'
 import circle from '../data/events/circle.png'
 import hero from '../data/services/StemLabs2_Teckybot.png'
 import Stemlab1 from '../data/services/stemlabs/StemLab3_Teckybot.jpg';
@@ -41,6 +41,12 @@ const StemLabs = () => {
                     }}
                 ></div>
 
+                {/* Gradient Overlay */}
+                <div
+                    className="absolute inset-0 rounded-3xl"
+                    style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%)" }}
+                ></div>
+
                 {/* Content */}
                 <div className="relative z-10 flex flex-col items-center">
                     {/* Responsive Heading */}
@@ -58,7 +64,7 @@ const StemLabs = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center bg-black bg-opacity-50 rounded-3xl mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         Step into Teckybot’s STEM Labs — where curiosity meets creation!
                         With hands-on kits and modern tools, students explore robotics, coding, electronics, and more.
                         It’s all about learning by doing, sparking innovation every step of the way.

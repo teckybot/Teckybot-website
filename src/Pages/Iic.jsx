@@ -33,6 +33,12 @@ const Iic = () => {
                     }}
                 ></div>
 
+                {/* Gradient Overlay */}
+                <div
+                    className="absolute inset-0 rounded-3xl"
+                    style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%)" }}
+                ></div>
+
                 {/* Content */}
                 <div className="relative z-10 flex flex-col items-center">
                     {/* Responsive Heading */}
@@ -50,7 +56,7 @@ const Iic = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center bg-black bg-opacity-50 rounded-3xl mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    <p className="text-white text-center  mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         Industry-Institute Collaboration (IIC) is a powerful partnership between academia and industry, driving mutual growth and innovation.
                         It connects students and educators with real-world challenges, turning theory into impactful solutions.
                         Want to bridge the gap between classroom learning and cutting-edge industry needs? IIC makes it happen!

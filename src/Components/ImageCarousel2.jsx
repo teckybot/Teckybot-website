@@ -19,7 +19,7 @@ const ImageCarousel1 = ({ images }) => {
       >
         {images.map((img, index) => (
           <SwiperSlide key={index}>
-            <div className="w-full aspect-[16/9] sm:aspect-[21/9] md:aspect-[16/7] lg:aspect-[16/6] xl:aspect-[16/5] flex items-center justify-center">
+            <div className="w-full aspect-[16/15] sm:aspect-[21/10] md:aspect-[16/8] lg:aspect-[16/8] xl:aspect-[16/7] flex items-center justify-center">
               <img
                 src={img.src}
                 alt={img.alt || `Slide ${index + 1}`}

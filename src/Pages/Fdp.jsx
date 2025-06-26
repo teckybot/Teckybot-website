@@ -2,7 +2,7 @@ import React from 'react'
 import hero from '../data/services/Fdp_hero.png'
 // import industrylogo from '../data/home/industrylogo.jpg'
 import Footer from '../Components/Footer'
-import logo from '../data/home/industrylogo.jpg'
+import logo from '../data/home/industry4.0_teckybot.jpg'
 
 const Fdp = () => {
     const text = "Faculty Development Program"
@@ -19,6 +19,12 @@ const Fdp = () => {
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
                     }}
+                ></div>
+
+                {/* Gradient Overlay */}
+                <div
+                    className="absolute inset-0 rounded-3xl"
+                    style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%)" }}
                 ></div>
 
                 {/* Content */}
@@ -38,7 +44,7 @@ const Fdp = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center bg-black bg-opacity-50 rounded-3xl mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    <p className="text-white text-center  mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         Teckybot’s Faculty Development Programme equips educators with the latest in Industry 4.0.
                         Through hands-on training and expert-led sessions, we help you stay ahead and teach with impact.
                         Boost your skills, upgrade your methods, and bring innovation into your classroom.
@@ -113,8 +119,3 @@ const Fdp = () => {
 }
 
 export default Fdp
-
-
-
-
-

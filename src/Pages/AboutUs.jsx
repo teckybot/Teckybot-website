@@ -1,12 +1,12 @@
 import React from 'react'
 import Footer from '../Components/Footer'
-import founder from '../data/aboutus/FounderImg.jpg'
+import founder from '../data/aboutus/Founder_Ceo_teckybot.jpg'
 import TeamSection from '../Components/TeamSection'
-import img1 from '../data/aboutus/1.png'
+import img1 from '../data/aboutus/teckybot_family_animate.png'
 import img from '../data/services/Group30.png'
-import img2_1 from '../data/aboutus/2_1.png'
-import img2_2 from '../data/aboutus/2_2.jpg'
-import img2_3 from '../data/aboutus/2_3.jpg'
+import img2_1 from '../data/aboutus/Awards1_teckybot.png'
+import img2_2 from '../data/aboutus/Awards2_teckybot.jpg'
+import img2_3 from '../data/aboutus/Awards3_teckybot.jpg'
 
 const AboutUs = () => {
   const awards = [img2_1, img2_2, img2_3];

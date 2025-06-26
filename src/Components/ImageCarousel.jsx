@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import img1 from '../data/home/IMG_1.jpg';
-import img2 from '../data/home/IMG_2.jpg';
-import img3 from '../data/home/IMG_3.jpg';
-import img4 from '../data/home/IMG_4.jpg';
+import img1 from '../data/home/seminar_teckybot.jpg';
+import img2 from '../data/home/school_projects_teckybot.jpg';
+import img3 from '../data/home/NSRIT_Lab_teckybot.jpg';
+import img4 from '../data/home/Government_schools_ATL_teckybot.jpg';
 
 const ImageCarousel = ({ interval = 5000 }) => {
   const images = [

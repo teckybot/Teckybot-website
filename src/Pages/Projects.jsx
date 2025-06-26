@@ -6,7 +6,7 @@ import maini1 from '../data/services/projects/Frame_109.png'
 import i4 from '../data/services/projects/Frame _112.png'
 import { motion } from "framer-motion";
 
-import hero from '../data/services/MainProject2_Teckybot.png'
+import hero from '../data/services/Robotics_1_teckybot.jpg'
 import minor1 from '../data/services/projects/Project1_Teckybot.jpg'
 import minor2 from '../data/services/projects/Project_Teckybot.jpg'
 import minor3 from '../data/services/projects/Project3_Teckybot.jpg'
@@ -40,8 +40,8 @@ const Projects = () => {
         major1,
     ];
     return (
-        <div className='flex flex-col items-center justify-center w-full'>
-            <div className="w-[90%] sm:w-[80%] rounded-3xl my-8 sm:my-16 flex flex-col p-6 sm:p-12 md:p-16 lg:p-24 overflow-hidden bg-white relative"
+        <div className='flex flex-col items-center  justify-center w-full'>
+            <div className="w-[90%]  sm:w-[80%]  rounded-3xl my-8 sm:my-16 flex flex-col p-6 sm:p-12 md:p-16 lg:p-24 overflow-hidden bg-white relative"
                 style={{ boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
                 {/* Background Image */}
                 <div
@@ -54,8 +54,14 @@ const Projects = () => {
                     }}
                 ></div>
 
+                {/* Gradient Overlay */}
+                <div
+                    className="absolute inset-0 rounded-3xl"
+                    style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%)" }}
+                ></div>
+
                 {/* Content */}
-                <div className="relative z-10 flex flex-col items-center">
+                <div className="relative z-10 flex flex-col items-center ">
                     {/* Responsive Heading */}
                     <h1 className="text-[24px] sm:text-[32px] md:text-[48px] lg:text-[64px] text-center sm:tracking-widest text-white font-semibold">
                         {text.split("").map((letter, index) => (
@@ -71,7 +77,7 @@ const Projects = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center bg-black bg-opacity-50 rounded-3xl mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    <p className="text-white text-center  rounded-3xl mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         At Teckybot, we offer complete, customised solutions for projects in Industry 4.0 technologies.
                         From academic needs to product prototypes, we turn your ideas into smart realities.
                         Our expertise spans IoT, AI, Automation, Embedded Systems, and more.
