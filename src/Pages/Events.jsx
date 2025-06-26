@@ -147,7 +147,7 @@ impactful solutions.
         </p>
       </div>
 
-      <h1 className='text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight'>Events Gallery</h1>
+      <h1 className='text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight'>Events <span className='text-[#FF721F]'>Gallery</span></h1>
 
       <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
         {/* Scrolling container */}
@@ -165,9 +165,9 @@ impactful solutions.
 
       </div>
 
-      <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-5">
+      {/* <div className="flex justify-start items-center h-[306px] w-full mt-4 overflow-hidden gap-16 mb-5"> */}
         {/* Scrolling container */}
-        <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
+        {/* <div className="flex animate-scroll-Intern hover:[animation-play-state:paused]">
           {[...highlights, ...highlights].map((image, index) => (
             <img
               key={`primary-${index}`}
@@ -177,8 +177,8 @@ impactful solutions.
               style={{ boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
             />
           ))}
-        </div>
-      </div>
+        </div> */}
+      {/* </div>  */}
 
 
       <Footer />

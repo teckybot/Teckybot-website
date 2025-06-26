@@ -187,10 +187,10 @@ const Teckyboti = () => (
     {/* Decorative background shapes */}
     <div className="absolute top-0 left-0 w-96 h-96 bg-pink-200 rounded-full opacity-30 -z-10 blur-2xl" style={{top: '-4rem', left: '-4rem'}} />
     <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-200 rounded-full opacity-30 -z-10 blur-2xl" style={{bottom: '-4rem', right: '-4rem'}} />
-{/* 
+
     <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12 text-black drop-shadow-lg">
-      Welcome 
-    </h1> */}
+       Explore
+    </h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 w-[95%] max-w-7xl">
       {suites.map((suite) => (
         <div

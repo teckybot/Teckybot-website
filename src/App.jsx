@@ -25,36 +25,63 @@ import CustomCursor from './Components/CustomCursor';
 
 function App() {
 
+  useEffect(() => {
+    const handleContextmenu = (e) => {
+      e.preventDefault();
+    };
+    const handleKeydown = (e) => {
+      // Prevent F12
+      if (e.key === 'F12') {
+        e.preventDefault();
+      }
+      // Prevent Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C
+      if (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key.toUpperCase())) {
+        e.preventDefault();
+      }
+      // Prevent Ctrl+U (View Source)
+      if (e.ctrlKey && e.key.toUpperCase() === 'U') {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener("contextmenu", handleContextmenu);
+    document.addEventListener("keydown", handleKeydown);
+    return () => {
+      document.removeEventListener("contextmenu", handleContextmenu);
+      document.removeEventListener("keydown", handleKeydown);
+    };
+  }, []);                                                                                                                                                                                                
+  
   return (
     <div className="">
-      <CustomCursor/>
+      <CustomCursor />
       <BrowserRouter>
-        <Navbar/>
+        <Navbar />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/AboutUs" element={<AboutUs/>}/>
-          <Route path="/Teckyverse" element={<Teckyboti/>}/>
-          <Route path="/Career" element = {<Career/>}/>
-          <Route path="/Services" element = {<Services/>}/>
-          <Route path="/Programs" element = {<Programs/>}/>
-  
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Teckyverse" element={<Teckyboti />} />
+          <Route path="/Career" element={<Career />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Programs" element={<Programs />} />
 
-          <Route path="/Services/projects" element={<Projects/>}/>
-          <Route path="/Services/stemlabs" element={<StemLabs/>}/>
-          <Route path="/Services/TechFdp" element={<Fdp/>}/>
-          <Route path="/Services/TechIic" element={<Iic/>}/> 
 
-          <Route path="/programs/internships" element={<Internship/>}/>
-          <Route path="/programs/BootCamp" element={<BootCamp/>}/>
-          <Route path="/programs/workshops" element={<Workshop/>}/>
-          <Route path="/programs/seminars" element={<Seminars/>}/>
+          <Route path="/Services/projects" element={<Projects />} />
+          <Route path="/Services/stemlabs" element={<StemLabs />} />
+          <Route path="/Services/TechFdp" element={<Fdp />} />
+          <Route path="/Services/TechIic" element={<Iic />} />
 
-          <Route path="/Events" element = {<Events/>}/>
-          <Route path="/ContactUs" element = {<ContactUs/>}/>
+          <Route path="/programs/internships" element={<Internship />} />
+          <Route path="/programs/BootCamp" element={<BootCamp />} />
+          <Route path="/programs/workshops" element={<Workshop />} />
+          <Route path="/programs/seminars" element={<Seminars />} />
+
+          <Route path="/Events" element={<Events />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
 
     </div>
   );
