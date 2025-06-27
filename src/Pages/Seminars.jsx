@@ -51,11 +51,15 @@ const Seminars = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center  mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Our seminars bring experts and innovators together to share the latest in emerging technologies and industry trends.
-                        They’re the perfect platform for knowledge exchange, inspiring discussions, and staying ahead in the fast-evolving tech world.
-                        Experience the future of technology through insightful connections and learning!
+                    {/* Mobile version - visible only on small screens */}
+                    <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
+                        An internship offers real-world experience, practical skills, and industry insights—your first step toward a successful career. Join us to kick-start your journey!
+                    </div>
 
+                    {/* Desktop version - visible on medium screens and up */}
+                    <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                        An internship is a short-term, real-world work experience that allows individuals to apply their knowledge, gain practical skills, and understand industry workflows—often serving as a stepping stone to full-time roles or advanced projects.
+                        Ready to level up your career? Join us and kick-start your journey with hands-on industry exposure.
                     </p>
                     <a
                         href="#"
@@ -71,9 +75,6 @@ const Seminars = () => {
                     <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                         <span className="text-[#FF721F]">Key Benefits</span>
                     </h2>
-                    <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                        Our program transforms teaching by equipping educators with Industry 4.0 expertise, fostering innovation, and integrating cutting-edge technology into the curriculum.
-                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-w-6xl mx-auto">
@@ -140,7 +141,7 @@ const Seminars = () => {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-800 mb-2">Professional Development</h3>
                         <p className="text-gray-600">
-                           Enhance your skills and knowledge to stay competitive in your field.
+                            Enhance your skills and knowledge to stay competitive in your field.
                         </p>
                     </div>
 
@@ -152,7 +153,7 @@ const Seminars = () => {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-800 mb-2">Interactive Learning</h3>
                         <p className="text-gray-600">
-                            Unlike passive learning, seminars encourage active participation through Q&A sessions, group discussions, and workshops.
+                            Unlike passive learning, seminars encourage active participation, group discussions.
                         </p>
                     </div>
                 </div>

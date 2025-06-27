@@ -65,21 +65,15 @@ const StemLabs = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Step into Teckybot’s STEM Labs — where curiosity meets creation!
-                        With hands-on kits and modern tools, students explore robotics, coding, electronics, and more.
-                        It’s all about learning by doing, sparking innovation every step of the way.
-                        <br />
-                        Ready to build, experiment, and bring ideas to life?
+                        Step into Teckybot's STEM Labs—where curiosity sparks creation through hands- on robotics, coding, and electronics and more.Ready to build, experiment and bring ideas to life?
                     </p>
                     <a
                         href="#"
-                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
-                    >
+                        className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4">
                         Contact Us
                     </a>
                 </div>
             </div>
-
             <ImageCarousel1 images={imageList} />
 
             <div className='w-[80%] flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-36 my-8'>
@@ -89,7 +83,7 @@ const StemLabs = () => {
                 <h1 className='lg:hidden font-bold text-[36px]'>
                     Key Benefits
                 </h1>
-                <p className='px-4 text-justify lg:px-8 '>STEM Labs at Teckybot offer an immersive learning environment where students can explore, experiment, and innovate using real-world technologies. Designed to bridge the gap between academics and industry, these labs equip learners with future-ready skills, hands-on experience, and a deep understanding of emerging tech fields.</p>
+                {/* <p className='px-4 text-justify lg:px-8 '>STEM Labs at Teckybot offer an immersive learning environment where students can explore, experiment, and innovate using real-world technologies. Designed to bridge the gap between academics and industry, these labs equip learners with future-ready skills, hands-on experience, and a deep understanding of emerging tech fields.</p> */}
             </div>
 
 
@@ -178,7 +172,7 @@ const StemLabs = () => {
             </div>
 
 
-            <section className="w-full min-h-screen bg-gradient-to-b from-blue-100 to-white py-8 relative">
+            <section className="w-full min-h-screen bg-gradient-to-b from-white via-blue-200 to-white-400 py-8 relative">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex flex-col md:flex-row md:items-start md:space-x-12">
                         {/* Left: Heading */}
@@ -199,8 +193,7 @@ const StemLabs = () => {
                                 We provide complete ATL
                                 solutions from lab setup and equipment supply to training modules and project
                                 support ensuring that schools are fully equipped to inspire innovation and problem
-                                solving skills among students. Our goal is to cultivate a culture of curiosity, creativity,
-                                and hands-on learning right from the school level.
+                                solving skills among students
                             </p>
                         </div>
                     </div>

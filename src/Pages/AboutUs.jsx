@@ -33,16 +33,13 @@ const AboutUs = () => {
             </h1>
 
             <p className='px-4 sm:px-8 py-4 text-center text-sm sm:text-base'>
-              We’re the team behind <strong>Teckybot</strong> — a passionate group of tech enthusiasts, mentors, and innovators dedicated to making learning engaging and practical. Through hands-on training in cutting-edge Industry 4.0 technologies, we empower learners to move beyond textbooks and step confidently into the real-world tech landscape.
+              We’re the team behind <strong>Teckybot</strong> — a passionate group of tech enthusiasts, mentors, and innovators dedicated to making learning engaging and practical. we empower learners to move beyond textbooks and step confidently into the real-world tech landscape.
             </p>
 
             <img src={img1} alt='img1' className='w-[90%] max-w-[450px] h-auto sm:h-[300px] object-contain' />
           </div>
         </div>
       </div>
-
-
-
       <div className='w-full flex flex-col-reverse items-center lg:flex-row lg:h-[600px] my-12'>
         <div className='w-[95%] sm:w-[80%] lg:w-[62%] lg:h-full rounded-r-[30px] lg:rounded-r-[0px] rounded-l-[30px] p-6 sm:p-20 flex flex-col bg-black text-white sm:gap-4'>
           <h1 className='font-semibold text-[32px] sm:text-[48px]'>Founder Message</h1>

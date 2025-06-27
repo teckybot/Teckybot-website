@@ -1,7 +1,15 @@
 import React from 'react'
 import hero from '../data/workshops/workshop4_teckybot.jpg'
 import Footer from '../Components/Footer'
-import w1 from '../data/services/w1.png'
+import w1 from '../data/workshops/Ev_Teckybot.jpg'
+import w2 from '../data/workshops/Robotics_Teckybot.jpg'
+import w3 from '../data/workshops/Ev_Teckybot.jpg'
+import w4 from '../data/workshops/drone_Teckybot.jpg'
+import w5 from '../data/workshops/Ev_Teckybot.jpg'
+import w6 from '../data/workshops/Embedded system_Teckybot.jpg'
+import w7 from '../data/workshops/Ev_Teckybot.jpg'
+import w8 from '../data/workshops/PCB_Teckybot.jpg'
+// import w9 from '../data/workshops/Ev_Teckybot.jpg'
 import fb from '../data/Facebook.png'
 import VE from '../data/workshops/EV - WS.pdf'
 import RB from '../data/workshops/Robotics - WS.pdf'
@@ -64,9 +72,15 @@ const Workshop = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    {/* Mobile version - visible only on small screens */}
+                    <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
+                        Whether you're a beginner or pro, join our hands-on Industry 4.0 workshops to build real skills and tackle real-world projects.
+                    </div>
+
+                    {/* Desktop version - visible on medium screens and up */}
+                    <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         Dive into our hands-on workshops on the latest Industry 4.0 tech!
-                        Whether you’re a beginner or pro, you’ll build real skills, explore cool tools, and tackle real-world projects.
+                        Whether you're a beginner or pro, you'll build real skills, explore cool tools, and tackle real-world projects.
                         Ready to make learning fun and practical? Join us!
                     </p>
                 </div>
@@ -97,7 +111,7 @@ const Workshop = () => {
             {/* Right */}
             <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w2} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         Robotics
@@ -118,7 +132,7 @@ const Workshop = () => {
             {/* Left  */}
             <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w3} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         3D Printing
@@ -139,7 +153,7 @@ const Workshop = () => {
             {/* Right */}
             <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w4} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         Drone Technology
@@ -160,7 +174,7 @@ const Workshop = () => {
             {/* Left  */}
             <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w5} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         Artificial Intelligence (AI)
@@ -181,7 +195,7 @@ const Workshop = () => {
             {/* Right */}
             <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w6} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         Embedded Systems
@@ -202,7 +216,7 @@ const Workshop = () => {
             {/* Left  */}
             <div className='flex flex-col lg:flex-row p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w7} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         Internet of Things (IoT)
@@ -223,7 +237,7 @@ const Workshop = () => {
             {/* Right */}
             <div className='flex flex-col lg:flex-row-reverse p-8 rounded-[20px] my-8 w-[80%] gap-6 items-center'
                 style={{ background: "linear-gradient(180deg, rgba(220, 235, 255, 1) 21%, rgba(0, 0, 0, 0) 100%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
-                <img src={w1} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
+                <img src={w8} alt='img1' className='sm:h-[350px] sm:w-[450px]' />
                 <div className='w-auto flex flex-col sm:px-6'>
                     <h1 className='font-semibold text-[24px]'>
                         Printed Circuit Board (PCB)

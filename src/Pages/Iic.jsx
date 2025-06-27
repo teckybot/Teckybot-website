@@ -7,17 +7,24 @@ import IIC1 from '../data/iic/IIC1_Teckybot.jpg'
 import IIC2 from '../data/iic/IIC2_Teckybot.jpg'
 import IIC3 from '../data/iic/IIC3_Teckybot.jpg'
 import IIC4 from '../data/iic/IIC4_Teckybot.jpg'
-
+import MOU1 from '../data/MOU/Nsrit.jpeg'
+import MOU2 from '../data/MOU/behara.jpeg' // Reusing existing images as placeholders
+import MOU3 from '../data/MOU/kallam.jpg'
+import MOU4 from '../data/MOU/vignan.jpg'
+import MOU5 from '../data/MOU/narayanapng.png'
+import MOU6 from '../data/MOU/KKR & KSR.png'
+import MOU7 from '../data/MOU/Dadi.jpg'
+import MOU8 from '../data/MOU/dnr.jpeg'
 
 const Iic = () => {
     const text = "Industry Institute Collaboration"
     const imageList = [
-            { src: IIC1, alt: 'First Slide' },
-            { src: IIC2, alt: 'Second Slide' },
-            { src: IIC3, alt: 'Third Slide' },
-            { src: IIC4, alt: 'Fourth Slide' },
-        ];
-    
+        { src: IIC1, alt: 'First Slide' },
+        { src: IIC2, alt: 'Second Slide' },
+        { src: IIC3, alt: 'Third Slide' },
+        { src: IIC4, alt: 'Fourth Slide' },
+    ];
+
     return (
         <div className='flex flex-col items-center justify-center w-full'>
             <div className="w-[90%] sm:w-[80%] rounded-3xl my-8 sm:my-16 flex flex-col p-6 sm:p-12 md:p-16 overflow-hidden bg-white relative"
@@ -57,8 +64,8 @@ const Iic = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center  mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Industry-Institute Collaboration (IIC) is a powerful partnership between academia and industry, driving mutual growth and innovation.
-                        It connects students and educators with real-world challenges, turning theory into impactful solutions.
+                        Industry-Institute Collaboration (IIC) is a powerful partnership between academia and industry.
+                        It connects students with real-world challenges.
                         Want to bridge the gap between classroom learning and cutting-edge industry needs? IIC makes it happen!
                     </p>
                 </div>
@@ -82,11 +89,7 @@ const Iic = () => {
                     academic journey. We collaborate with institutions to provide continuous industry
                     exposure, hands-on training, and project-based learning—helping participants build
                     real-world skills across all semesters of their course.
-                    Partnering with Teckybot through our Industry-Institute Collaboration (IIC) program
-                    offers institutions a wide range of benefits. It enhances curriculum delivery by
-                    integrating industry-relevant tools and content, ensuring students gain hands-on
-                    experience and practical skills throughout their academic journey. This continuous
-                    exposure significantly boosts student employability and confidence.
+                    This continuous exposure significantly boosts student employability and confidence.
                 </p>
                 <br />
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
@@ -99,233 +102,38 @@ const Iic = () => {
             </div>
 
             <h1 className="text-center text-[28px] sm:text-[36px] md:text-[40px] lg:text-[50px] xl:text-[50px] font-semibold leading-tight">
-                MOU'S with Colleges
+                MOU&apos;S with Colleges
             </h1>
 
             <section className="w-full min-h-screen py-4 relative">
                 <div className="max-w-6xl mx-auto px-4">
-                    {/* Circles with different text */}
-                    <div className="flex justify-center gap-24 mt-20 flex-wrap relative">
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#exp" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#earn" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#dev" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#spire" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
+                    {/* Responsive grid for circles */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-20">
+                        {[MOU1, MOU2, MOU3, MOU4, MOU5, MOU6, MOU7, MOU8].map((imgSrc, idx) => (
+                            <div key={idx} className="flex flex-col items-center">
+                                <div className="relative w-[140px] h-[140px] sm:w-[200px] sm:h-[200px]">
+                                    {/* Optional: background decorative circle */}
+                                    {/* <img
+                                        src={circle}
+                                        alt="Circle"
+                                        className="absolute w-full h-full object-contain drop-shadow-md"
+                                    /> */}
+                                    {/* Circular image */}
+                                    <a href="#exp" className="z-20 flex items-center justify-center w-full h-full">
+                                        <img
+                                            src={imgSrc}
+                                            alt={`MOU ${idx + 1}`}
+                                            className="rounded-full w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[180px] md:h-[180px] object-cover border-4 border-white shadow-lg"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        ))}
                     </div>
-
-                    <div className="flex justify-center gap-24 mt-12 flex-wrap relative">
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#exp" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#earn" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#dev" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#spire" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-center gap-24 mt-12 flex-wrap relative">
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#exp" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#earn" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#dev" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#spire" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-center gap-24 mt-12 flex-wrap relative">
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#exp" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#earn" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#dev" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-
-                        <div className="relative z-10 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[200px] md:h-[200px] flex items-center justify-center">
-                            <img
-                                src={circle}
-                                alt="Circle"
-                                className="absolute w-full h-full object-contain drop-shadow-md"
-                            />
-                            <a href="#spire" className="z-20 text-center">
-                                <h1 className="text-[16px] sm:text-[28px] lg:text-[32px]">
-                                    LOGO
-                                </h1>
-                            </a>
-                        </div>
-                    </div>
-
-
                 </div>
             </section>
-            <Footer />
-        </div>
+    <Footer />
+        </div >
     )
 }
 

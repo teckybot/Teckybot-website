@@ -52,10 +52,17 @@ const Internship = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    {/* Mobile version - visible only on small screens */}
+                    <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
+                        An internship offers real-world experience, practical skills, and industry insights—your first step toward a successful career. Join us to kick-start your journey!
+                    </div>
+
+                    {/* Desktop version - visible on medium screens and up */}
+                    <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         An internship is a short-term, real-world work experience that allows individuals to apply their knowledge, gain practical skills, and understand industry workflows—often serving as a stepping stone to full-time roles or advanced projects.
-                        Ready to level up your career? Join us and kick-start your journey with hands-on industry exposure
+                        Ready to level up your career? Join us and kick-start your journey with hands-on industry exposure.
                     </p>
+
 
 
                     <div className="flex flex-col sm:flex-row gap-4 my-4">

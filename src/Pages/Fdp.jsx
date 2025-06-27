@@ -44,18 +44,24 @@ const Fdp = () => {
                     </h1>
 
                     {/* Responsive Paragraph */}
-                    <p className="text-white text-center  mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Teckybot’s Faculty Development Programme equips educators with the latest in Industry 4.0.
+                    {/* Mobile version - visible only on small screens */}
+                    <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
+                        Teckybot's Faculty Development Program empowers educators with Industry 4.0 skills through hands-on training and expert sessions. Upgrade your teaching, boost your impact, and become a future-ready educator.
+                    </div>
+
+                    {/* Desktop version - visible on medium screens and up */}
+                    <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                        Teckybot's Faculty Development Programme equips educators with the latest in Industry 4.0.
                         Through hands-on training and expert-led sessions, we help you stay ahead and teach with impact.
                         Boost your skills, upgrade your methods, and bring innovation into your classroom.
                         <br />
                         Ready to become a future-ready educator?
-                        Let’s grow together.
+                        Let's grow together.
                     </p>
                 </div>
             </div>
 
-               
+
             <div className="w-full bg-white py-16 flex flex-col items-center">
                 {/* Headline and Illustration */}
                 <div className="flex flex-col-reverse lg:flex-row items-center w-[90%] max-w-6xl gap-12 mb-12">

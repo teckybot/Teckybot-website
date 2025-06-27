@@ -38,7 +38,7 @@ const PositionCard = ({ title, date, format, experience, positions }) => {
 
         <div className="mt-6 flex gap-3">
           <button
-            className="flex-1 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
+            className="flex-1 py-2 bg-orange-500 text-white font-medium rounded-md hover:bg-orange-700 transition-colors"
             onClick={() => setShowApplyPopup(true)}
           >
             Apply Now
