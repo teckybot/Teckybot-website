@@ -4,7 +4,7 @@ import Instagram from '../data/Instagram.png'
 import Linked from '../data/Linked.png'
 import mail from '../data/mail.png'
 import Youtube from '../data/Youtube.png'
-import YourImage from '../data/Teckybotlogo.jpg'
+import YourImage from '../data/Teckybot_logo.jpg'
 
 const Footer = () => {
   return (
