@@ -33,7 +33,7 @@ const AboutUs = () => {
             </h1>
 
             <p className='px-4 sm:px-8 py-4 text-center text-sm sm:text-base'>
-              We’re the team behind <strong>Teckybot</strong> — a passionate group of tech enthusiasts, mentors, and innovators dedicated to making learning engaging and practical. we empower learners to move beyond textbooks and step confidently into the real-world tech landscape.
+              We’re the team behind <strong>Teckybot</strong>  a passionate group of tech enthusiasts, mentors, and innovators dedicated to making learning engaging and practical. we empower learners to move beyond textbooks and step confidently into the real world tech landscape.
             </p>
 
             <img src={img1} alt='img1' className='w-[90%] max-w-[450px] h-auto sm:h-[300px] object-contain' />

@@ -2,17 +2,17 @@ import React from 'react'
 import hero from '../data/seminars/Seminar3_Teckybot.jpg'
 import Footer from '../Components/Footer'
 import logo from '../data/home/industry4.0_teckybot.jpg'
-import Rectangle_18 from '../data/Internship/Gallery/Rectangle_18.png'
-import Rectangle_19 from '../data/Internship/Gallery/Rectangle_19.png'
-import Rectangle_20 from '../data/Internship/Gallery/Rectangle_20.png'
-import Rectangle_21 from '../data/Internship/Gallery/Rectangle_21.png'
-import Rectangle_22 from '../data/Internship/Gallery/Rectangle_22.png'
-import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
+import sem1 from '../data/seminars/Seminar0_Teckybot.jpg'
+import sem2 from '../data/seminars/Seminar1_Teckybot.jpg'
+import sem3 from '../data/seminars/Seminar2_Teckybot.jpg'
+import sem4 from '../data/seminars/Seminar4_Teckybot.jpg'
+import sem5 from '../data/seminars/Seminar5_Teckybot.jpeg'
+
 
 
 const Seminars = () => {
     const text = "SEMINARS";
-    const highlights = [Rectangle_18, Rectangle_19, Rectangle_20];
+    const highlights = [sem1, sem2, sem3, sem4, sem5,];
     return (
         <div className='flex flex-col items-center justify-center w-full'>
             <div className="w-[90%] sm:w-[80%] rounded-3xl my-8 sm:my-12 flex flex-col p-6 sm:p-12 md:p-16 overflow-hidden bg-white relative"
@@ -52,15 +52,21 @@ const Seminars = () => {
 
                     {/* Responsive Paragraph */}
                     {/* Mobile version - visible only on small screens */}
-                    <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
+                    {/* <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
                         An internship offers real-world experience, practical skills, and industry insights—your first step toward a successful career. Join us to kick-start your journey!
-                    </div>
+                    </div> */}
 
                     {/* Desktop version - visible on medium screens and up */}
-                    <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                    {/* <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         An internship is a short-term, real-world work experience that allows individuals to apply their knowledge, gain practical skills, and understand industry workflows—often serving as a stepping stone to full-time roles or advanced projects.
                         Ready to level up your career? Join us and kick-start your journey with hands-on industry exposure.
+                    </p> */}
+                    <p className="text-white text-center  rounded-3xl mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
+                        Our seminars bring together experts and innovators to share insights on
+                        emerging technologies, industry trends, and best practices.
                     </p>
+
+
                     <a
                         href="#"
                         className="px-4 py-2 w-[200px] text-center bg-orange-500 text-white hover:bg-orange-600 transition rounded-[10px] my-4"
@@ -115,7 +121,7 @@ const Seminars = () => {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-800 mb-2">Networking Opportunities</h3>
                         <p className="text-gray-600">
-                            Connect with like-minded peers, mentors, and potential collaborators.
+                            Connect with like minded peers, mentors, and potential collaborators.
                         </p>
                     </div>
 
@@ -160,9 +166,7 @@ const Seminars = () => {
             </div>
 
 
-            <h1 className="text-center text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold leading-tight mt-24 mb-8">
-                Seminars
-            </h1>
+            
 
             <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
                 {/* Scrolling container */}

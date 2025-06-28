@@ -3,23 +3,22 @@ import btl from '../data/events/btl.png'
 import Footer from '../Components/Footer'
 import ellipse from '../data/events/Ellipse.jpg'
 import circle from '../data/events/circle.png'
-import Rectangle_18 from '../data/Internship/Gallery/Rectangle_18.png'
-import Rectangle_19 from '../data/Internship/Gallery/Rectangle_19.png'
-import Rectangle_20 from '../data/Internship/Gallery/Rectangle_20.png'
-import Rectangle_21 from '../data/Internship/Gallery/Rectangle_21.png'
-import Rectangle_22 from '../data/Internship/Gallery/Rectangle_22.png'
-import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
+import btl1 from '../data/events/BTL1_Teckybot.jpeg'
+// import btl2 from '../data/events/BTL2_Teckybot.jpeg'
+import btl3 from '../data/events/BTL3_Teckybot.jpeg'
+import btl4 from '../data/events/BTL4_Teckybot.jpeg'
+import btl5 from '../data/events/BTL5_Teckybot.jpeg'
 
 
 const Events = () => {
-  const highlights = [Rectangle_18, Rectangle_19, Rectangle_20]
-  const highlights2 = [Rectangle_21, Rectangle_22, Rectangle_23]
+  const highlights = [btl1, btl3, btl4, btl5]
+  // const highlights2 = [Rectangle_21, Rectangle_22, Rectangle_23]
   return (
     <div className='flex flex-col w-full items-center justify-center'>
 
 
       {/* card  */}
-      <div className="my-10 md:my-24 min-h-[280px] md:min-h-[500px] relative bg-gradient-to-b from-white to-blue-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-10 shadow-lg w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col items-center justify-center md:flex-row md:justify-between overflow-hidden"
+      <div className="my-5 md:my-24 min-h-[280px] md:min-h-[500px] relative bg-gradient-to-b from-white to-blue-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-10 shadow-lg w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col items-center justify-center md:flex-row md:justify-between overflow-hidden"
         style={{
           background: "linear-gradient(180deg, rgba(207, 227, 255, 1) 2%, rgba(255, 255, 255, 1) 88%)",
           boxShadow: "0px 20px 30px rgba(0,0,0,0.25)"
@@ -73,21 +72,23 @@ impactful solutions.
       </div>
 
       {/* card 2  */}
-      <div className="text-start mx-auto max-w-7xl my-6 sm:my-8 md:my-12 lg:my-16 px-4 sm:px-6 md:px-8">
+      <div className="text-start mx-auto max-w-7xl my-5 sm:my-8 md:my-10 lg:my-3 px-4 sm:px-6 md:px-8">
         <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
           Bharat Tech League is Teckybot’s flagship national-level event, crafted to ignite innovation and inspire hands-on creativity among young tech enthusiasts across the country. This dynamic platform invites students and aspiring innovators to showcase their skills, collaborate with peers, and tackle real-world challenges using cutting-edge technologies.
         </p>
         <br />
-        <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
+        {/* <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
           Participants engage in a series of exciting tech challenges and  competitions that encourage critical thinking, problem-solving, and teamwork. From ideation to execution, Bharat Tech League empowers individuals to transform bold ideas into impactful, real-world solutions — all while gaining exposure to Industry 4.0 tools and practices.
-        </p>
-        <br />
+        </p> */}
+        {/* <br /> */}
         <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
           More than just a competition, it’s a celebration of innovation, learning, and the spirit of technology-driven change.
         </p>
+        <br />
+        <br />
       </div>
 
-      <div className="my-10  md:my-20 min-h-[280px] md:min-h-[500px] relative bg-gradient-to-b from-white to-blue-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-10 shadow-lg w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col items-center justify-center md:flex-row-reverse md:justify-between overflow-hidden"
+      <div className="my-6  md:my-5 min-h-[280px] md:min-h-[500px] relative bg-gradient-to-b from-white to-blue-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-10 shadow-lg w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col items-center justify-center md:flex-row-reverse md:justify-between overflow-hidden"
         style={{
           background: "linear-gradient(180deg, rgba(207, 227, 255, 1) 2%, rgba(255, 255, 255, 1) 88%)",
           boxShadow: "0px 20px 30px rgba(0,0,0,0.25)"

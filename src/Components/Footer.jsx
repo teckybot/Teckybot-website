@@ -39,14 +39,14 @@ const Footer = () => {
           {/* Main Office */}
           <div className="flex flex-col items-center md:items-start">
             <ul className="list-none w-full">
-              <li className="font-bold text-[20px] py-0 text-center md:text-left"><span className='text-[#FF721F]'>Main Office</span></li>
+              <li className="font-bold text-[20px] py-0 text-center md:text-left"><span className='text-[#FF721F]'>Head Office</span></li>
               <li className="py-2 text-center md:text-left">Dr No: 1, 20/1, Juttada Rd,</li>
               <li className="py-2 text-center md:text-left">Pulaganipalem,</li>
               <li className="py-2 text-center md:text-left">Visakhapatnam,</li>
               <li className="py-2 text-center md:text-left">Andhra Pradesh, 531143.</li>
-              <li className="py-2 text-center md:text-left">
+              {/* <li className="py-2 text-center md:text-left">
                 Ph: <a href="tel:8886122886" className="hover:text-blue-600">88861 22887</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* Contact */}
@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="list-none w-full">
               <li className="font-bold text-[20px] py-0 text-center md:text-left"><span className='text-[#FF721F]'>Contact</span></li>
               <li className="py-2 text-center md:text-left">
-                Phone: <a href="tel:8886122886" className="hover:text-blue-600">88861 22887</a>
+                Phone: <a href="tel:8886122886" className="hover:text-blue-600">88861 22885</a>
               </li>
               <li className="py-2 text-center md:text-left">
                 Email: <a href="mailto:info@teckybot.com" className="hover:text-blue-600">info@teckybot.com</a>

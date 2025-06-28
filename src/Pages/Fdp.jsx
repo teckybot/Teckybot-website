@@ -46,13 +46,13 @@ const Fdp = () => {
                     {/* Responsive Paragraph */}
                     {/* Mobile version - visible only on small screens */}
                     <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
-                        Teckybot's Faculty Development Program empowers educators with Industry 4.0 skills through hands-on training and expert sessions. Upgrade your teaching, boost your impact, and become a future-ready educator.
+                        Teckybot's Faculty Development Program empowers educators with Industry 4.0 skills through hands-on training and expert sessions. Upgrade your teaching, boost your impact, and become a future ready educator.
                     </div>
 
                     {/* Desktop version - visible on medium screens and up */}
                     <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
                         Teckybot's Faculty Development Programme equips educators with the latest in Industry 4.0.
-                        Through hands-on training and expert-led sessions, we help you stay ahead and teach with impact.
+                        Through hands-on training and expert led sessions, we help you stay ahead and teach with impact.
                         Boost your skills, upgrade your methods, and bring innovation into your classroom.
                         <br />
                         Ready to become a future-ready educator?
@@ -80,7 +80,7 @@ const Fdp = () => {
                             Why Choose <span className="text-[#FF721F]">Our Programme?</span>
                         </h2>
                         <p className="text-lg text-gray-700 max-w-xl mx-auto lg:mx-0">
-                            Unlock your potential as an educator with future-ready skills, innovative teaching strategies, and hands-on experience in Industry 4.0 technologies.
+                            Unlock your potential as an educator with future ready skills, innovative teaching strategies, and hands-on experience in Industry 4.0 technologies.
                         </p>
                     </div>
                 </div>
@@ -89,12 +89,12 @@ const Fdp = () => {
                 <div className="w-[90%] max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8">
                     {[
                         {
-                            title: "Industry-Relevant Skill Enhancement",
+                            title: "Industry Relevant Skill Enhancement",
                             desc: "Gain expertise in AI, IoT, Robotics, and Automation to stay ahead in the education landscape.",
                         },
                         {
                             title: "Innovative Teaching Methodologies",
-                            desc: "Adopt interactive, project-based, and student-focused approaches for impactful learning.",
+                            desc: "Adopt interactive, project based, and student focused approaches for impactful learning.",
                         },
                         {
                             title: "Continuous Learning Culture",
@@ -102,7 +102,7 @@ const Fdp = () => {
                         },
                         {
                             title: "Hands-On Practical Exposure",
-                            desc: "Experience real-world tools, kits, and applications to enhance your teaching effectiveness.",
+                            desc: "Experience real world tools, kits, and applications to enhance your teaching effectiveness.",
                         },
                     ].map((item, idx) => (
                         <div key={idx} className="flex items-start gap-4 bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-200">

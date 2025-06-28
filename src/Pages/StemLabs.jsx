@@ -65,7 +65,7 @@ const StemLabs = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Step into Teckybot's STEM Labs—where curiosity sparks creation through hands- on robotics, coding, and electronics and more.Ready to build, experiment and bring ideas to life?
+                        Step into Teckybot's STEM Labs where curiosity sparks creation through hands-on robotics, coding, and electronics and more.Ready to build, experiment and bring ideas to life?
                     </p>
                     <a
                         href="#"
@@ -76,15 +76,12 @@ const StemLabs = () => {
             </div>
             <ImageCarousel1 images={imageList} />
 
-            <div className='w-[80%] flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-36 my-8'>
-                <h1 className='font-bold text-[48px] hidden lg:block'>
-                    Key<br />Benefits
-                </h1>
-                <h1 className='lg:hidden font-bold text-[36px]'>
-                    Key Benefits
+            {/* <div className='w-[80%] flex text-center flex-col lg:flex-row justify-between items-center gap-8 lg:gap-36 my-8'> */}
+                <h1 className='text-[80px] font-bold text-center py-10  sm:text-[40px]'>
+                    Key <span className="text-[#FF721F]">Benefits</span>
                 </h1>
                 {/* <p className='px-4 text-justify lg:px-8 '>STEM Labs at Teckybot offer an immersive learning environment where students can explore, experiment, and innovate using real-world technologies. Designed to bridge the gap between academics and industry, these labs equip learners with future-ready skills, hands-on experience, and a deep understanding of emerging tech fields.</p> */}
-            </div>
+            {/* </div> */}
 
 
             <div className="h-[1px] w-[80%] bg-[#151515] my-4 opacity-[40%]"></div>
@@ -184,10 +181,9 @@ const StemLabs = () => {
                         <div className="md:w-2/3 space-y-6">
                             <p className="text-gray-700 text-base leading-relaxed">
                                 At Teckybot, we actively support and enhance the vision of Atal Tinkering Labs, a
-                                f
-                                lagship initiative by NITI Aayog under the Atal Innovation Mission (AIM). Our ATL
+                                flagship initiative by NITI Aayog under the Atal Innovation Mission (AIM). Our ATL
                                 setups are designed to create a nurturing space where young minds can ideate, tinker,
-                                and innovate using state-of-the-art tools and technologies.
+                                and innovate using state of the art tools and technologies.
                             </p>
                             <p className="text-gray-700 text-base leading-relaxed">
                                 We provide complete ATL

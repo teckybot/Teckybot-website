@@ -95,7 +95,7 @@ const Projects = () => {
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-justify">
                     Our minor projects are tailored for short-term objectives that require quick execution
                     without compromising on innovation. These projects are ideal for showcasing
-                    technical knowledge in a concise format and are best suited for early-stage academic
+                    technical knowledge in a concise format and are best suited for early stage academic
                     needs, internships, or initial concept testing.
                 </p>
             </div>
@@ -130,9 +130,9 @@ const Projects = () => {
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-justify">
                     Major Projects are in depth, technically rich solutions created to meet 
-                    industrial use cases, or product development goals. From research-based systems to
-                    working prototypes, our team ensures every detail is aligned with real-world
-                    applications. We focus on functionality, scalability, and innovation—delivering
+                    industrial use cases, or product development goals. From research based systems to
+                    working prototypes, our team ensures every detail is aligned with real world
+                    applications. We focus on functionality, scalability, and innovation delivering
                     solutions that stand out both technically and practically.
                 </p>
             </div>

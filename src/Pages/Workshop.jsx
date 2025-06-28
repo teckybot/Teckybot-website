@@ -3,14 +3,13 @@ import hero from '../data/workshops/workshop4_teckybot.jpg'
 import Footer from '../Components/Footer'
 import w1 from '../data/workshops/Ev_Teckybot.jpg'
 import w2 from '../data/workshops/Robotics_Teckybot.jpg'
-import w3 from '../data/workshops/Ev_Teckybot.jpg'
-import w4 from '../data/workshops/drone_Teckybot.jpg'
-import w5 from '../data/workshops/Ev_Teckybot.jpg'
+import w3 from '../data/workshops/3D Printing_Teckybot.jpg'
+import w4 from '../data/workshops/Drone.jpg'
+import w5 from '../data/workshops/AI_Teckybot.jpg'
 import w6 from '../data/workshops/Embedded system_Teckybot.jpg'
-import w7 from '../data/workshops/Ev_Teckybot.jpg'
+import w7 from '../data/workshops/IoT_Teckybot.jpg'
 import w8 from '../data/workshops/PCB_Teckybot.jpg'
-// import w9 from '../data/workshops/Ev_Teckybot.jpg'
-import fb from '../data/Facebook.png'
+
 import VE from '../data/workshops/EV - WS.pdf'
 import RB from '../data/workshops/Robotics - WS.pdf'
 import PR from '../data/workshops/Printing.pdf'
@@ -74,14 +73,14 @@ const Workshop = () => {
                     {/* Responsive Paragraph */}
                     {/* Mobile version - visible only on small screens */}
                     <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
-                        Whether you're a beginner or pro, join our hands-on Industry 4.0 workshops to build real skills and tackle real-world projects.
+                        Whether you're a beginner or pro, join our hands-on Industry 4.0 workshops to build real skills and tackle real world projects.
                     </div>
 
                     {/* Desktop version - visible on medium screens and up */}
                     <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Dive into our hands-on workshops on the latest Industry 4.0 tech!
-                        Whether you're a beginner or pro, you'll build real skills, explore cool tools, and tackle real-world projects.
-                        Ready to make learning fun and practical? Join us!
+                        Dive into our hands-on workshops on the latest Industry 4.0 tech.
+                        Whether you're a beginner or pro, you'll build real skills, explore cool tools, and tackle real world projects.
+                        Ready to make learning fun and practical? Join us/
                     </p>
                 </div>
             </div>
@@ -139,7 +138,7 @@ const Workshop = () => {
                     </h1>
                     <p className='my-4 text-justify'>
                         Get hands-on experience with 3D modelling and printing, turning digital
-                        designs into physical prototypes using beginner-friendly tools.
+                        designs into physical prototypes using beginner friendly tools.
                     </p>
                     <a
                         href={PR} download='3D Printing.pdf'

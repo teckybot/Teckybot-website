@@ -65,7 +65,7 @@ const Programs = () => {
             </h1>
             <p className='text-base sm:text-lg max-w-3xl'>
               At Teckybot, we offer a range of dynamic programmes designed to provide hands-on
-              experience, practical skills, and real-world exposure. From internships and bootcamps to
+              experience, practical skills, and real world exposure. From internships and bootcamps to
               workshops and seminars, our programmes are crafted to keep learners and tech
               enthusiasts in sync with the latest industry trends.
             </p>

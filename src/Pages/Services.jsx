@@ -57,8 +57,8 @@ const Services = () => {
           Get Ready to Explore<br /> <span className='text-[#FF721F]'> Our Services</span>
         </h1>
         <p className='text-base sm:text-lg max-w-3xl'>
-          At Teckybot, we offer a wide range of tech-driven services including project solutions, STEM
-          lab setups, Industry-Institution collaborations, internships, workshops, and more. Our goal is
+          At Teckybot, we offer a wide range of tech driven services including project solutions, STEM
+          lab setups, Industry Institution collaborations, and more. Our goal is
           to deliver innovative, hands-on solutions that bridge the gap between technology and
           learning.
         </p>

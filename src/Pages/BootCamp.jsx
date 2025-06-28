@@ -13,13 +13,7 @@ import drone3 from '../data/services/Bootcamp/drone_rt.png'
 import face3 from '../data/services/Bootcamp/face_rt.png'
 import face4 from '../data/services/Bootcamp/face_rt2.png'
 import dot from '../data/services/Bootcamp/dot1.png'
-import slide1 from '../data/programs/slide1.png'
-import slide2 from '../data/programs/slide2.jpg'
-import slide3 from '../data/programs/slide3.jpg'
-import slide4 from '../data/programs/slide4.jpg'
-import paper from '../data/programs/Paper.png'
-import download from '../data/programs/Download.png'
-import paper2 from '../data/programs/Paper2.png'
+
 
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";

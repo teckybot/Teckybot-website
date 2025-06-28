@@ -64,9 +64,9 @@ const Iic = () => {
 
                     {/* Responsive Paragraph */}
                     <p className="text-white text-center  mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        Industry-Institute Collaboration (IIC) is a powerful partnership between academia and industry.
-                        It connects students with real-world challenges.
-                        Want to bridge the gap between classroom learning and cutting-edge industry needs? IIC makes it happen!
+                        Industry Institute Collaboration (IIC) is a powerful partnership between academia and industry.
+                        It connects students with real world challenges.
+                        Want to bridge the gap between classroom learning and cutting edge industry needs? IIC makes it happen!
                     </p>
                 </div>
             </div>
@@ -87,17 +87,9 @@ const Iic = () => {
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
                     At Teckybot, our IIC programs are designed to support learners throughout their
                     academic journey. We collaborate with institutions to provide continuous industry
-                    exposure, hands-on training, and project-based learning—helping participants build
-                    real-world skills across all semesters of their course.
+                    exposure, hands-on training, and project based learning helping participants build
+                    real world skills across all semesters of their course.
                     This continuous exposure significantly boosts student employability and confidence.
-                </p>
-                <br />
-                <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7">
-                    Institutions gain
-                    stronger industry connections, access to live projects, internships, and research
-                    opportunities—fostering a culture of innovation and real-world problem-solving.
-                    Ultimately, this collaboration elevates the institution’s academic profile and positions
-                    it as a forward-thinking, industry-aligned learning hub.
                 </p>
             </div>
 

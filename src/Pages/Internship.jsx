@@ -3,16 +3,21 @@ import Footer from '../Components/Footer'
 import hero from '../data/Internship/Gallery/internship1_teckybot.jpg'
 import StudentTestimonials from '../Components/StudentTestimonials'
 import Rectangle_18 from '../data/Internship/Gallery/Rectangle_18.png'
-import Rectangle_19 from '../data/Internship/Gallery/Rectangle_19.png'
+// import Rectangle_19 from '../data/Internship/Gallery/Rectangle_19.png'
 import Rectangle_20 from '../data/Internship/Gallery/Rectangle_20.png'
 import Rectangle_21 from '../data/Internship/Gallery/Rectangle_21.png'
 import Rectangle_22 from '../data/Internship/Gallery/Rectangle_22.png'
 import Rectangle_23 from '../data/Internship/Gallery/Rectangle_23.png'
 import internshipBrochure from '../data/Internship/Teckybot Internship Brochure.pdf'
+import sem1 from '../data/seminars/Seminar0_Teckybot.jpg'
+import sem2 from '../data/seminars/Seminar1_Teckybot.jpg'
+import sem3 from '../data/seminars/Seminar2_Teckybot.jpg'
+import sem4 from '../data/seminars/Seminar4_Teckybot.jpg'
+import sem5 from '../data/seminars/Seminar5_Teckybot.jpeg'
 
 const Internship = () => {
-    const highlights = [Rectangle_18, Rectangle_19, Rectangle_20]
-    const highlights2 = [Rectangle_21, Rectangle_22, Rectangle_23]
+    const highlights = [sem1, sem2, sem3, sem4, sem5];
+    // const highlights2 = [sem1, sem2, sem3, sem4, sem5];
     const text = "What is Internship ?"
     return (
         <div className='flex flex-col items-center justify-center w-full'>
@@ -54,12 +59,12 @@ const Internship = () => {
                     {/* Responsive Paragraph */}
                     {/* Mobile version - visible only on small screens */}
                     <div className="block sm:hidden text-white text-center mt-4 p-4 text-sm leading-6">
-                        An internship offers real-world experience, practical skills, and industry insights—your first step toward a successful career. Join us to kick-start your journey!
+                        An internship offers real world experience, practical skills, and industry insights your first step toward a successful career. Join us to kick start your journey.
                     </div>
 
                     {/* Desktop version - visible on medium screens and up */}
                     <p className="hidden sm:block text-white text-center mt-4 sm:mt-6 md:mt-8 p-4 sm:p-6 lg:p-12 text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-8">
-                        An internship is a short-term, real-world work experience that allows individuals to apply their knowledge, gain practical skills, and understand industry workflows—often serving as a stepping stone to full-time roles or advanced projects.
+                        An internship is a short term, real world work experience that allows individuals to apply their knowledge, gain practical skills, and understand industry workflows often serving as a stepping stone to full time roles or advanced projects.
                         Ready to level up your career? Join us and kick-start your journey with hands-on industry exposure.
                     </p>
 
@@ -163,13 +168,18 @@ const Internship = () => {
                 >
                     <div
                         className="flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white flex-grow"
-                        style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}
-                    >
-                        <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
+                        style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}>
+                        <div className="h-[190px] w-full rounded-[18px] overflow-hidden">
+                            <img
+                                src={Rectangle_18}
+                                alt="Tecky Smart"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
                         <h1 className="font-semibold text-[24px]">Tecky <span className='text-orange-500'>Smart</span></h1>
                         <p>
                             Tecky Smart is our exclusive internship hiring platform where we
-                            onboard passionate individuals and assign them real-time projects
+                            onboard passionate individuals and assign them real time projects
                             based on their skills and interests.
                         </p>
                         <a
@@ -192,10 +202,16 @@ const Internship = () => {
                         className="flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white flex-grow"
                         style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}
                     >
-                        <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
+                        <div className="h-[190px] w-full rounded-[18px] overflow-hidden">
+                            <img
+                                src={Rectangle_18}
+                                alt="Tecky Skill"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
                         <h1 className="font-semibold text-[24px]">Tecky <span className='text-orange-500'>Skill</span></h1>
                         <p>
-                            Teck Skill is our unique program that trains individuals in relevant technologies and immediately involves them in real tasks—ensuring active learning and direct industry exposure.
+                            Teck Skill is our unique program that trains individuals in relevant technologies and immediately involves them in real tasks ensuring active learning and direct industry exposure.
                         </p>
                         <a
                             href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
@@ -217,25 +233,33 @@ const Internship = () => {
                         className="flex flex-col w-full p-8 gap-4 text-center rounded-[18px] bg-white flex-grow"
                         style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}
                     >
-                        <div className="h-[190px] w-full bg-gray-300 rounded-[18px]"></div>
+                        <div className="h-[190px] w-full rounded-[18px] overflow-hidden">
+                            <img
+                                src={Rectangle_18}
+                            alt="Tecky Assist"
+                            className="w-full h-full object-cover"
+        />
+                        </div>
                         <h1 className="font-semibold text-[24px]">Tecky <span className='text-orange-500'>Assist</span></h1>
                         <p>
-                            Tecky Assist is our skill development platform, offering hands-on training tailored to your interests and career goals—helping you thrive in the Industry 4.0 world.
+                            Tecky Assist is our skill development platform, offering hands-on training tailored to your interests and career goals helping you thrive in the Industry 4.0 world.
                         </p>
                         <a
-                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8"
+                            target='_blank'
+                            rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now
                         </a>
                     </div>
-                </div>
+                </div> 
             </div>
 
 
-            <StudentTestimonials />
+            {/* <StudentTestimonials /> */}
 
-            <h1 className='text-center text-[48px] font-semibold'>Internships</h1>
+            {/* <h1 className='text-center text-[48px] font-semibold'>Internships</h1> */}
 
             <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
                 {/* Scrolling container */}
