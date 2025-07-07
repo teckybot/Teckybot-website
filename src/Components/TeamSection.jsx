@@ -8,11 +8,11 @@ import img6 from '../data/aboutus/team/Senior Developer (3D Printing)_teckybot.j
 import img7 from '../data/aboutus/team/Senior Developer (AI)_teckybot.jpg'
 import img8 from '../data/aboutus/team/Business Dev. Manager__teckybot.jpg'
 import img9 from '../data/aboutus/team/Digital Marketing Executive_teckybot.jpg'
-import img10 from '../data/aboutus/team/Senior Technical Trainer_teckybot.jpg'
+import img10 from '../data/aboutus/team/Business Development manager_teckybot.jpg'
 import img11 from '../data/aboutus/team/Technical Trainer_teckybot.jpg'
 import img12 from '../data/aboutus/team/Technical Trainer2_teckybot.jpg'
 import img13 from '../data/aboutus/team/Technical Trainer1_teckybot.png'
-import img14 from '../data/aboutus/team/Full Stack Developer1_teckybot.jpg'
+import img14 from '../data/aboutus/team/Full Stack Developer_teckybot.jpg'
 import img15 from '../data/aboutus/team/Supply Chain Manage_teckybotr.jpg'
 
 const teamMembers = [
@@ -72,7 +72,7 @@ const teamMembers = [
     },
     {
         name: 'T. KARTHEEK',
-        position: 'Senior Technical Trainer',
+        position: 'Business Development Manager',
         imageUrl: img10,
         linkedInUrl: 'https://www.linkedin.com/in/kartheek-thalluru-885b90179/',
     },
@@ -89,7 +89,7 @@ const teamMembers = [
         linkedInUrl: 'https://www.linkedin.com/in/sai-charan-839231320/',
     },
     {
-        name: 'P. Venkat Charan Kumar',
+        name: 'P. Venkat Charan',
         position: 'Technical Trainer',
         imageUrl: img13,
         linkedInUrl: 'https://www.linkedin.com/in/venkatcharan21/',

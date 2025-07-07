@@ -14,6 +14,9 @@ import sem2 from '../data/seminars/Seminar1_Teckybot.jpg'
 import sem3 from '../data/seminars/Seminar2_Teckybot.jpg'
 import sem4 from '../data/seminars/Seminar4_Teckybot.jpg'
 import sem5 from '../data/seminars/Seminar5_Teckybot.jpeg'
+import Teckysmart from '../data/Internship/TeckySmart_teckybot.jpeg'
+import Teckyskill from '../data/Internship/TeckySkill_teckybot.jpg'
+import Teckyassist from '../data/Internship/TeckyAssist_teckybot.jpg'
 
 const Internship = () => {
     const highlights = [sem1, sem2, sem3, sem4, sem5];
@@ -171,7 +174,7 @@ const Internship = () => {
                         style={{ boxShadow: "0px 5px 10px rgba(0,0,0, 0.25)" }}>
                         <div className="h-[190px] w-full rounded-[18px] overflow-hidden">
                             <img
-                                src={Rectangle_18}
+                                src={Teckysmart}
                                 alt="Tecky Smart"
                                 className="w-full h-full object-cover"
                             />
@@ -204,7 +207,7 @@ const Internship = () => {
                     >
                         <div className="h-[190px] w-full rounded-[18px] overflow-hidden">
                             <img
-                                src={Rectangle_18}
+                                src={Teckyskill}
                                 alt="Tecky Skill"
                                 className="w-full h-full object-cover"
                             />
@@ -235,7 +238,7 @@ const Internship = () => {
                     >
                         <div className="h-[190px] w-full rounded-[18px] overflow-hidden">
                             <img
-                                src={Rectangle_18}
+                                src={Teckyassist}
                             alt="Tecky Assist"
                             className="w-full h-full object-cover"
         />
@@ -257,9 +260,9 @@ const Internship = () => {
             </div>
 
 
-            {/* <StudentTestimonials /> */}
+            <StudentTestimonials />
 
-            {/* <h1 className='text-center text-[48px] font-semibold'>Internships</h1> */}
+            <h1 className='text-center text-[48px] font-semibold'>Internships</h1>
 
             <div className="flex justify-start items-center h-[306px] w-full overflow-hidden gap-16 mb-5 mt-10">
                 {/* Scrolling container */}

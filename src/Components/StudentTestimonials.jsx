@@ -1,24 +1,27 @@
 import React from 'react';
 import Intern_png from '../data/Internship/StudentTestimonials/Intern_png.png'
+import student1 from '../data/Internship/StudentTestimonials/Student1_testimonial_teckybot.png'
+import student2 from '../data/Internship/StudentTestimonials/Student2_testimonial_teckybot.png'
+import student3 from '../data/Internship/StudentTestimonials/Student3_testimonial_teckybot.jpg'
 
 const sdtestimonials = [
   {
-    name: "Intern Name",
-    position: "Intern role",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit.",
-    image: Intern_png,
+    name: "S. KAVAYA",
+    position: "IOT",
+    text: "I completed an Internship on IoT with Teckybot, and the learning experience was outstanding. It was an incredibly inspiring journey, and I'm looking forward to attending more courses and expanding my knowledge with Teckybot.",
+    image: student1,
   },
   {
-    name: "Intern Name",
-    position: "Intern role",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit.",
-    image: Intern_png,
+    name: "B. YUGANDHAR",
+    position: "Embedded Systems",
+    text: "My internship at Teckybot on Embedded Systems was an outstanding experience. The program offered a perfect balance of theory and practical application, allowing me to develop a deep understanding and valuable skills.",
+    image: student2,
   },
   {
-    name: "Intern Name",
-    position: "Intern role",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit.",
-    image: Intern_png,
+    name: "G. GAYATHRI",
+    position: "Web Development",
+    text: "The Teckybot internship was a transformative experience that deepened my skills in real-world tech projects. I had the opportunity to collaborate with an innovative team and gain hands-on exposure in web development and design.",
+    image: student3,
   }
 ];
 
