@@ -21,6 +21,7 @@ import Fdp from './Pages/Fdp';
 import Iic from './Pages/Iic';
 import BootCamp from './Pages/BootCamp';
 import CustomCursor from './Components/CustomCursor';
+import Form from './Pages/Formpage';
 
 
 function App() {
@@ -76,7 +77,7 @@ function App() {
           <Route path="/programs/BootCamp" element={<BootCamp />} />
           <Route path="/programs/workshops" element={<Workshop />} />
           <Route path="/programs/seminars" element={<Seminars />} />
-
+          <Route path="/programs/internships/form" element={<Form />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
