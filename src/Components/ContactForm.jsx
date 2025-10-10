@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { sendContactForm } from '../api/api';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -25,13 +26,9 @@ const ContactForm = () => {
     toast.info("Hang tight! Your message is on its way...", { autoClose: 3000 });
 
     try {
-      const res = await fetch('https://teckybot-website-backend.onrender.com/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+      const res = await sendContactForm(formData);
 
-      if (res.ok) {
+      if (res.status === 200 || res.status === 201) {
         toast.success("Thank you! We'll get back to you within 24–48 hours.");
         setFormData({ name: '', email: '', phone: '', message: '' });
         setButtonState('submitted');
