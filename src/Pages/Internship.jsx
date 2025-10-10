@@ -186,7 +186,8 @@ const Internship = () => {
                             based on their skills and interests.
                         </p>
                         <a
-                            href="/programs/internships/form"
+                            // href="/programs/internships/form"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now
@@ -217,7 +218,8 @@ const Internship = () => {
                             Teck Skill is our unique program that trains individuals in relevant technologies and immediately involves them in real tasks ensuring active learning and direct industry exposure.
                         </p>
                         <a
-                            href="/programs/internships/form"
+                            // href="/programs/internships/form"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now
@@ -248,7 +250,8 @@ const Internship = () => {
                             Tecky Assist is our skill development platform, offering hands-on training tailored to your interests and career goals helping you thrive in the Industry 4.0 world.
                         </p>
                         <a
-                            href="/programs/internships/form"
+                            // href="/programs/internships/form"
+                            href="https://forms.gle/vRtMV8aJoAv1K9Uf8" target='_blank' rel="noopener noreferrer"
                             className="inline-block px-4 py-2 mt-auto text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition"
                         >
                             Apply Now

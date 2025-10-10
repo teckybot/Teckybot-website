@@ -77,7 +77,7 @@ function App() {
           <Route path="/programs/BootCamp" element={<BootCamp />} />
           <Route path="/programs/workshops" element={<Workshop />} />
           <Route path="/programs/seminars" element={<Seminars />} />
-          <Route path="/programs/internships/form" element={<Form />} />
+          {/* <Route path="/programs/internships/form" element={<Form />} /> */}
           <Route path="/Events" element={<Events />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
