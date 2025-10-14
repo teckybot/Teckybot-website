@@ -1,17 +1,38 @@
-import React, { useState } from 'react';
-import img from '../data/services/Group30.png'
-import img1 from '../data/career/11.png'
-import Footer from '../Components/Footer'
-import PositionCard from '../Components/PositionCard'
-import FaqQuestion from '../Components/FaqQuestion'
+import React, { useEffect, useState } from "react";
+import img from "../data/services/Group30.png";
+import img1 from "../data/career/11.png";
+import Footer from "../Components/Footer";
+import PositionCard from "../Components/PositionCard";
+import { getAllJobs } from "../api/api";
+import { subscribeToJobUpdates } from "../api/socket";
 
 const Career = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [jobs, setJobs] = useState([]);
 
-  const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
+  useEffect(() => {
+    // Initial fetch
+    getAllJobs()
+      .then((data) => setJobs(data))
+      .catch((err) => console.error("Failed to fetch jobs:", err));
 
+    // Subscribe to real-time updates
+    const unsubscribe = subscribeToJobUpdates({
+      onJobCreated: (job) => setJobs((prev) => [job, ...prev]),
+      onJobUpdated: (updatedJob) =>
+        setJobs((prev) =>
+          prev.map((job) =>
+            job.jobId === updatedJob.jobId ? updatedJob : job
+          )
+        ),
+      onJobDeleted: (deletedId) =>
+        setJobs((prev) => prev.filter((job) => job.jobId !== deletedId)),
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  /* ----------------------------- FAQ Data ----------------------------- */
   const faqData = [
     {
       number: "01",
@@ -91,96 +112,68 @@ const Career = () => {
   ];
 
   return (
-    <div className='relative flex w-full flex-col items-center'>
-      <div className='w-[90%] lg:w-[85%] sm:w-[80%] my-16 rounded-[20px] pb-4 text-center'
-        style={{ background: "linear-gradient(180deg, rgba(207, 227, 255, 1) 2%, rgba(255, 255, 255, 1) 88%)", boxShadow: '0px 20px 30px rgba(0,0,0, 0.25)' }}>
+    <div className="relative flex w-full flex-col items-center">
+      <div
+        className="w-[90%] lg:w-[85%] sm:w-[80%] my-16 rounded-[20px] pb-4 text-center"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(207, 227, 255, 1) 2%, rgba(255, 255, 255, 1) 88%)",
+          boxShadow: "0px 20px 30px rgba(0,0,0, 0.25)",
+        }}
+      >
         <div className="flex justify-center items-center">
-          <div className='h-[500px] w-[90%] z-20 bg-contain flex flex-col items-center'
+          <div
+            className="h-[500px] w-[90%] z-20 bg-contain flex flex-col items-center"
             style={{
               background: `url(${img})`,
-              backgroundSize: 'cover',  // Ensures the entire image is contained within the div
-              backgroundPosition: 'center', // Keeps the image centered
-              backgroundRepeat: 'no-repeat'
-            }}>
-            <h1 className='text-3xl sm:text-[25px] lg:text-4xl xl:text-7xl font-bold mb-6 sm:mb-8 lg:mb-8 xl:mb-8 leading-tight'>
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <h1 className="text-3xl sm:text-[25px] lg:text-4xl xl:text-7xl font-bold mb-6 sm:mb-8 leading-tight">
               Let's Grow <br />
-              <span className='text-[#FF721F]'>Together</span>
+              <span className="text-[#FF721F]">Together</span>
             </h1>
-            <p className='px-4 sm:px-8 py-4 text-center text-sm sm:text-base'>
-              Ready to shape the future of tech and education?
-              Join Teckybot — where passion meets innovation in Industry 4.0 projects and transformative learning.
-              Grow your skills, collaborate with experts, and make a real impact.
-            
+            <p className="px-4 sm:px-8 py-4 text-center text-sm sm:text-base">
+              Ready to shape the future of tech and education? Join Teckybot —
+              where passion meets innovation in Industry 4.0 projects and
+              transformative learning. Grow your skills, collaborate with
+              experts, and make a real impact.
             </p>
-            <img src={img1} alt='img1' className='w-[300px] sm:w-[400px] lg:w-[450px] lg:h-[400px]' />
+            <img
+              src={img1}
+              alt="Career Banner"
+              className="w-[300px] sm:w-[400px] lg:w-[450px] lg:h-[400px]"
+            />
           </div>
         </div>
       </div>
 
-      <h1 className='text-center text-[48px] font-semibold'>Positions</h1>
-      <div className='flex flex-col items-center space-y-4 sm:flex-row sm:flex-wrap sm:gap-4 lg:gap-8 sm:space-y-0 justify-around w-[90%] mb-12'>
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Technical Trainer"
-          format="Office (Vizag)"
-          experience="0 - 4 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Technical Developer"
-          format="Office (Vizag)"
-          experience="0 - 4 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Business Development Associate"
-          format="Office (Vizag)"
-          experience="0 - 4 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Graphic Designer"
-          format="Office (Vizag)"
-          experience="1 - 4 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Video / VFX Designer"
-          format="Office (Vizag)"
-          experience="1 - 4 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="UI/UX Designer"
-          format="Office (Vizag)"
-          experience="1 - 4 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Public Relations Manager"
-          format="Office (Vizag)"
-          experience="2 - 6 years"
-          positions="2"
-        />
-        <PositionCard
-          date="Jan 12, 2025"
-          title="Research & Development (R&D) Lead"
-          format="Office (Vizag)"
-          experience="3 - 6 years"
-          positions="2"
-        />
+      {/* ----------------------------- Positions Section ----------------------------- */}
+      <h1 className="text-center text-[48px] font-semibold mb-8">Positions</h1>
+      <div className="flex flex-col items-center space-y-4 sm:flex-row sm:flex-wrap sm:gap-4 lg:gap-8 sm:space-y-0 justify-around w-[90%] mb-12">
+        {jobs.length > 0 ? (
+          jobs.map((job) => (
+            <PositionCard
+              key={job.jobId}
+              date={new Date(job.createdAt).toLocaleDateString()}
+              title={job.position}
+              format={job.location || "Office (Vizag)"}
+              experience={job.experience || "0 - 2 years"}
+              positions={job.openings || "1"}
+            />
+          ))
+        ) : (
+          <p className="text-gray-500 text-center mt-4">
+            No active openings right now. Check back soon!
+          </p>
+        )}
       </div>
 
-      {/* FAQ Section */}
+      {/* ----------------------------- FAQ Section ----------------------------- */}
       <div className="w-full px-4 sm:px-6 py-12 bg-white">
         <div className="max-w-4xl mx-auto">
-          {/* FAQ Header */}
           <div className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Recruitment <span className="text-[#FF721F]">FAQ's</span>
@@ -192,11 +185,15 @@ const Career = () => {
           <div className="space-y-2 w-full">
             {faqData.map((item, index) => (
               <div key={index} className="group">
-                <div 
+                <div
                   className="flex items-start gap-4 p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
-                  onClick={() => toggleFAQ(index)}
+                  onClick={() =>
+                    setActiveIndex(activeIndex === index ? null : index)
+                  }
                 >
-                  <div className="text-2xl font-bold text-[#FF721F]">{item.number}</div>
+                  <div className="text-2xl font-bold text-[#FF721F]">
+                    {item.number}
+                  </div>
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
                       {item.question}
@@ -207,9 +204,24 @@ const Career = () => {
                       </p>
                     )}
                   </div>
-                  <div className={`text-gray-400 transition-transform duration-200 ${activeIndex === index ? 'rotate-180 text-[#FF721F]' : ''}`}>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  <div
+                    className={`text-gray-400 transition-transform duration-200 ${
+                      activeIndex === index ? "rotate-180 text-[#FF721F]" : ""
+                    }`}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
                     </svg>
                   </div>
                 </div>
@@ -223,16 +235,18 @@ const Career = () => {
           {/* CTA */}
           <div className="text-center mt-16">
             <p className="text-gray-600 mb-6">Still have questions?</p>
-            <a href="/ContactUs"><button className="bg-[#FF721F] hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-lg shadow-md transition-colors duration-200">
-              Contact Our Team
-            </button></a>
+            <a href="/ContactUs">
+              <button className="bg-[#FF721F] hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-lg shadow-md transition-colors duration-200">
+                Contact Our Team
+              </button>
+            </a>
           </div>
         </div>
       </div>
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Career
+export default Career;
