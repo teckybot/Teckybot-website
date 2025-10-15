@@ -18,7 +18,7 @@ export const getAllJobs = async () => {
 
 // Apply for a job (form submission with resume upload)
 export const applyJob = async (jobId, formData) => {
-  const res = await api.post(`/jobs/${jobId}/apply`, formData, {
+  const res = await api.post(`/job-applications/${jobId}/apply`, formData, {
     headers: { "Content-Type": "multipart/form-data" },
   });
   return res.data;
