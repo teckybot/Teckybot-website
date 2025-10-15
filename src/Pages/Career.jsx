@@ -157,6 +157,8 @@ const Career = () => {
           jobs.map((job) => (
             <PositionCard
               key={job.jobId}
+              jobId={job.jobId}
+              pdfUrl={job.pdfUrl} // <-- ensure your backend sends this
               date={new Date(job.createdAt).toLocaleDateString()}
               title={job.position}
               format={job.location || "Office (Vizag)"}
@@ -169,6 +171,7 @@ const Career = () => {
             No active openings right now. Check back soon!
           </p>
         )}
+
       </div>
 
       {/* ----------------------------- FAQ Section ----------------------------- */}
@@ -205,9 +208,8 @@ const Career = () => {
                     )}
                   </div>
                   <div
-                    className={`text-gray-400 transition-transform duration-200 ${
-                      activeIndex === index ? "rotate-180 text-[#FF721F]" : ""
-                    }`}
+                    className={`text-gray-400 transition-transform duration-200 ${activeIndex === index ? "rotate-180 text-[#FF721F]" : ""
+                      }`}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
